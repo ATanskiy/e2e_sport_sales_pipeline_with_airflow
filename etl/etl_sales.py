@@ -1,7 +1,4 @@
 import pandas as pd
-import os
-import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import OFFLINE_COLUMNS_TO_STANDARDISE, ONLINE_COLUMNS_TO_STANDARDISE,\
                     OFFLINE_SALES_CHANNEL, ONLINE_SALES_CHANNEL, TMSTMP, DIM_TABLES,\
                     SALES_COLUMN_ORDER

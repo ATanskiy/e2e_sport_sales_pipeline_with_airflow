@@ -9875,3 +9875,1416 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T12:45:34
 ================================================================================
 [2025-07-15T12:46:10.308+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2025-07-15T12:46:42.546+0000] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2025-07-15T12:46:42.547+0000] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2025-07-15T12:46:42.547+0000] {manager.py:471} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-07-15T12:46:42.548+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T12:46:42.584+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T12:46:42.659+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/currency_rates_daily_update.py    179  0.04s             0           0
+/opt/airflow/dags/extract_daily_to_s3.py            182  0.03s             0           0
+================================================================================
+[2025-07-15T12:47:12.921+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  1.21s           2025-07-15T12:46:43
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  1.20s           2025-07-15T12:46:43
+================================================================================
+[2025-07-15T12:47:43.267+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T12:47:14
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T12:47:14
+================================================================================
+[2025-07-15T12:48:13.385+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T12:47:45
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T12:47:45
+================================================================================
+[2025-07-15T12:48:43.615+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.54s           2025-07-15T12:48:15
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.52s           2025-07-15T12:48:15
+================================================================================
+[2025-07-15T12:49:13.961+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.56s           2025-07-15T12:48:46
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.63s           2025-07-15T12:48:46
+================================================================================
+[2025-07-15T12:49:44.637+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T12:49:17
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T12:49:17
+================================================================================
+[2025-07-15T12:50:15.509+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.60s           2025-07-15T12:49:48
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.55s           2025-07-15T12:49:48
+================================================================================
+[2025-07-15T12:50:45.803+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T12:50:18
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T12:50:19
+================================================================================
+[2025-07-15T12:51:15.991+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T12:50:49
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T12:50:49
+================================================================================
+[2025-07-15T12:51:42.759+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T12:51:42.798+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T12:51:46.315+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T12:51:20
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T12:51:20
+================================================================================
+[2025-07-15T12:52:16.601+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T12:51:51
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T12:51:51
+================================================================================
+[2025-07-15T12:52:46.937+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T12:52:22
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T12:52:22
+================================================================================
+[2025-07-15T12:53:17.393+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.75s           2025-07-15T12:52:53
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.66s           2025-07-15T12:52:53
+================================================================================
+[2025-07-15T12:53:47.793+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.54s           2025-07-15T12:53:24
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.50s           2025-07-15T12:53:24
+================================================================================
+[2025-07-15T12:54:17.921+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T12:53:54
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T12:53:54
+================================================================================
+[2025-07-15T12:54:48.631+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T12:54:25
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T12:54:25
+================================================================================
+[2025-07-15T12:55:19.415+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T12:54:56
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T12:54:56
+================================================================================
+[2025-07-15T12:55:49.682+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T12:55:26
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T12:55:26
+================================================================================
+[2025-07-15T12:56:19.962+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T12:55:57
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T12:55:57
+================================================================================
+[2025-07-15T12:56:43.647+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T12:56:43.667+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T12:56:50.720+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T12:56:28
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T12:56:28
+================================================================================
+[2025-07-15T12:57:21.498+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.45s           2025-07-15T12:56:59
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T12:56:59
+================================================================================
+[2025-07-15T12:57:51.790+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T12:57:30
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T12:57:30
+================================================================================
+[2025-07-15T12:58:22.043+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T12:58:00
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T12:58:00
+================================================================================
+[2025-07-15T12:58:52.410+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T12:58:31
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T12:58:31
+================================================================================
+[2025-07-15T12:59:22.785+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.68s           2025-07-15T12:59:02
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.65s           2025-07-15T12:59:02
+================================================================================
+[2025-07-15T12:59:53.637+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.55s           2025-07-15T12:59:33
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.52s           2025-07-15T12:59:33
+================================================================================
+[2025-07-15T13:00:24.525+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.62s           2025-07-15T13:00:04
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.57s           2025-07-15T13:00:04
+================================================================================
+[2025-07-15T13:00:55.512+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.66s           2025-07-15T13:00:35
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.61s           2025-07-15T13:00:35
+================================================================================
+[2025-07-15T13:01:26.268+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.55s           2025-07-15T13:01:06
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:01:06
+================================================================================
+[2025-07-15T13:01:43.953+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:01:43.974+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:01:57.057+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T13:01:36
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.50s           2025-07-15T13:01:36
+================================================================================
+[2025-07-15T13:02:27.297+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.53s           2025-07-15T13:02:07
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.50s           2025-07-15T13:02:07
+================================================================================
+[2025-07-15T13:02:57.500+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.55s           2025-07-15T13:02:38
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.52s           2025-07-15T13:02:38
+================================================================================
+[2025-07-15T13:03:27.783+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:03:09
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:03:09
+================================================================================
+[2025-07-15T13:03:58.013+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:03:39
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:03:39
+================================================================================
+[2025-07-15T13:04:28.753+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:04:10
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:04:10
+================================================================================
+[2025-07-15T13:04:59.593+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.51s           2025-07-15T13:04:41
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:04:41
+================================================================================
+[2025-07-15T13:05:29.926+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:05:12
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:05:12
+================================================================================
+[2025-07-15T13:06:00.183+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:05:43
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:05:43
+================================================================================
+[2025-07-15T13:06:30.481+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:06:13
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:06:13
+================================================================================
+[2025-07-15T13:06:44.131+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:06:44.151+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:07:00.748+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:06:44
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:06:44
+================================================================================
+[2025-07-15T13:07:31.109+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:07:15
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:07:15
+================================================================================
+[2025-07-15T13:08:01.438+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:07:46
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:07:46
+================================================================================
+[2025-07-15T13:08:32.264+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:08:17
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T13:08:17
+================================================================================
+[2025-07-15T13:09:02.591+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:08:47
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:08:47
+================================================================================
+[2025-07-15T13:09:32.863+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:09:18
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:09:18
+================================================================================
+[2025-07-15T13:10:03.145+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:09:49
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:09:49
+================================================================================
+[2025-07-15T13:10:33.580+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.63s           2025-07-15T13:10:20
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.60s           2025-07-15T13:10:20
+================================================================================
+[2025-07-15T13:11:04.349+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.53s           2025-07-15T13:10:51
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:10:51
+================================================================================
+[2025-07-15T13:11:35.276+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.64s           2025-07-15T13:11:22
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.58s           2025-07-15T13:11:22
+================================================================================
+[2025-07-15T13:11:44.336+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:11:44.360+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:12:06.068+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:11:52
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T13:11:52
+================================================================================
+[2025-07-15T13:12:36.846+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.51s           2025-07-15T13:12:23
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:12:23
+================================================================================
+[2025-07-15T13:13:07.642+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:12:54
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:12:54
+================================================================================
+[2025-07-15T13:13:38.381+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:13:25
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:13:25
+================================================================================
+[2025-07-15T13:14:08.666+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:13:56
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:13:56
+================================================================================
+[2025-07-15T13:14:38.869+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:14:26
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:14:26
+================================================================================
+[2025-07-15T13:15:09.606+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:14:57
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:14:57
+================================================================================
+[2025-07-15T13:15:40.405+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:15:28
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:15:28
+================================================================================
+[2025-07-15T13:16:11.237+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:15:59
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:15:59
+================================================================================
+[2025-07-15T13:16:41.956+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:16:29
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:16:29
+================================================================================
+[2025-07-15T13:16:44.994+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:16:45.143+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:17:12.435+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:17:00
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:17:00
+================================================================================
+[2025-07-15T13:17:42.619+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T13:17:31
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:17:31
+================================================================================
+[2025-07-15T13:18:13.433+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T13:18:02
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:18:02
+================================================================================
+[2025-07-15T13:18:43.742+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:18:33
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:18:33
+================================================================================
+[2025-07-15T13:19:13.960+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:19:03
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:19:03
+================================================================================
+[2025-07-15T13:19:44.308+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:19:34
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:19:34
+================================================================================
+[2025-07-15T13:20:14.603+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T13:20:05
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:20:05
+================================================================================
+[2025-07-15T13:20:44.854+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:20:36
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:20:36
+================================================================================
+[2025-07-15T13:21:15.086+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.60s           2025-07-15T13:21:07
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.59s           2025-07-15T13:21:07
+================================================================================
+[2025-07-15T13:21:45.831+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:21:45.918+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:21:45.927+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:21:37
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:21:37
+================================================================================
+[2025-07-15T13:22:16.221+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:22:08
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:22:08
+================================================================================
+[2025-07-15T13:22:46.405+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T13:22:39
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.42s           2025-07-15T13:22:39
+================================================================================
+[2025-07-15T13:23:16.741+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:23:10
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:23:10
+================================================================================
+[2025-07-15T13:23:46.976+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:23:40
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:23:40
+================================================================================
+[2025-07-15T13:24:17.689+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:24:11
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:24:11
+================================================================================
+[2025-07-15T13:24:48.531+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:24:42
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:24:42
+================================================================================
+[2025-07-15T13:25:18.811+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:25:13
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:25:13
+================================================================================
+[2025-07-15T13:25:49.111+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T13:25:44
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.50s           2025-07-15T13:25:44
+================================================================================
+[2025-07-15T13:26:19.382+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T13:26:14
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:26:14
+================================================================================
+[2025-07-15T13:26:46.015+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:26:46.029+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:26:49.534+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:26:45
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:26:45
+================================================================================
+[2025-07-15T13:27:20.255+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:27:16
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T13:27:16
+================================================================================
+[2025-07-15T13:27:50.580+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:27:47
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:27:46
+================================================================================
+[2025-07-15T13:28:20.728+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.45s           2025-07-15T13:28:17
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.43s           2025-07-15T13:28:17
+================================================================================
+[2025-07-15T13:28:51.530+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T13:28:48
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T13:28:48
+================================================================================
+[2025-07-15T13:29:22.263+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:29:19
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:29:19
+================================================================================
+[2025-07-15T13:29:53.089+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.56s           2025-07-15T13:29:50
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.51s           2025-07-15T13:29:50
+================================================================================
+[2025-07-15T13:30:23.822+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T13:30:20
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:30:20
+================================================================================
+[2025-07-15T13:30:54.727+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.61s           2025-07-15T13:30:51
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.59s           2025-07-15T13:30:51
+================================================================================
+[2025-07-15T13:31:25.014+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T13:31:22
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:31:22
+================================================================================
+[2025-07-15T13:31:46.191+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:31:46.233+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:31:55.338+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.62s           2025-07-15T13:31:53
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.60s           2025-07-15T13:31:53
+================================================================================
+[2025-07-15T13:32:25.694+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:32:24
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:32:24
+================================================================================
+[2025-07-15T13:32:55.885+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:32:54
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:32:54
+================================================================================
+[2025-07-15T13:33:26.635+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.51s           2025-07-15T13:33:25
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T13:33:25
+================================================================================
+[2025-07-15T13:33:56.950+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T13:33:56
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:33:56
+================================================================================
+[2025-07-15T13:34:27.165+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:34:27
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:34:27
+================================================================================
+[2025-07-15T13:34:57.482+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                           PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py   1460  0.01s             1           0  0.49s           2025-07-15T13:34:27
+/opt/airflow/dags/extract_daily_to_s3.py           1463  0.00s             1           0  0.47s           2025-07-15T13:34:27
+================================================================================
+[2025-07-15T13:35:27.738+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.45s           2025-07-15T13:34:57
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:34:57
+================================================================================
+[2025-07-15T13:35:57.980+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.51s           2025-07-15T13:35:28
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:35:28
+================================================================================
+[2025-07-15T13:36:28.259+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:35:59
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:35:59
+================================================================================
+[2025-07-15T13:36:46.372+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:36:46.391+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:36:58.519+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T13:36:30
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.42s           2025-07-15T13:36:30
+================================================================================
+[2025-07-15T13:37:28.834+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:37:01
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T13:37:01
+================================================================================
+[2025-07-15T13:37:58.976+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.51s           2025-07-15T13:37:31
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T13:37:31
+================================================================================
+[2025-07-15T13:38:29.799+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.58s           2025-07-15T13:38:02
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.54s           2025-07-15T13:38:02
+================================================================================
+[2025-07-15T13:39:00.087+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:38:33
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:38:33
+================================================================================
+[2025-07-15T13:39:30.362+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.58s           2025-07-15T13:39:04
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.56s           2025-07-15T13:39:04
+================================================================================
+[2025-07-15T13:40:00.678+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:39:34
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:39:34
+================================================================================
+[2025-07-15T13:40:31.181+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.73s           2025-07-15T13:40:05
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.68s           2025-07-15T13:40:05
+================================================================================
+[2025-07-15T13:41:01.492+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:40:36
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:40:36
+================================================================================
+[2025-07-15T13:41:31.800+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.64s           2025-07-15T13:41:07
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.56s           2025-07-15T13:41:07
+================================================================================
+[2025-07-15T13:41:46.546+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:41:46.566+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:42:02.727+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.57s           2025-07-15T13:41:38
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.53s           2025-07-15T13:41:38
+================================================================================
+[2025-07-15T13:42:33.087+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:42:09
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:42:09
+================================================================================
+[2025-07-15T13:43:03.412+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.61s           2025-07-15T13:42:40
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.54s           2025-07-15T13:42:40
+================================================================================
+[2025-07-15T13:43:33.678+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:43:11
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:43:10
+================================================================================
+[2025-07-15T13:44:03.910+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.53s           2025-07-15T13:43:41
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.50s           2025-07-15T13:43:41
+================================================================================
+[2025-07-15T13:44:34.651+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T13:44:12
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:44:12
+================================================================================
+[2025-07-15T13:45:05.444+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:44:43
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T13:44:43
+================================================================================
+[2025-07-15T13:45:36.204+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:45:14
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:45:14
+================================================================================
+[2025-07-15T13:46:06.922+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.51s           2025-07-15T13:45:44
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.49s           2025-07-15T13:45:44
+================================================================================
+[2025-07-15T13:46:37.201+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.51s           2025-07-15T13:46:15
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:46:15
+================================================================================
+[2025-07-15T13:46:47.311+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:46:47.334+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:47:07.508+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.54s           2025-07-15T13:46:46
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.51s           2025-07-15T13:46:46
+================================================================================
+[2025-07-15T13:47:37.794+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:47:17
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:47:17
+================================================================================
+[2025-07-15T13:48:07.993+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:47:47
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:47:47
+================================================================================
+[2025-07-15T13:48:38.779+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:48:18
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:48:18
+================================================================================
+[2025-07-15T13:49:09.766+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.63s           2025-07-15T13:48:49
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.64s           2025-07-15T13:48:49
+================================================================================
+[2025-07-15T13:49:40.203+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T13:49:20
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:49:20
+================================================================================
+[2025-07-15T13:50:10.367+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:49:51
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:49:51
+================================================================================
+[2025-07-15T13:50:40.647+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T13:50:21
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:50:21
+================================================================================
+[2025-07-15T13:51:10.803+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:50:52
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:50:52
+================================================================================
+[2025-07-15T13:51:41.127+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.59s           2025-07-15T13:51:23
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.55s           2025-07-15T13:51:23
+================================================================================
+[2025-07-15T13:51:47.732+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:51:47.756+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:52:11.417+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.45s           2025-07-15T13:51:54
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.42s           2025-07-15T13:51:54
+================================================================================
+[2025-07-15T13:52:42.329+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.63s           2025-07-15T13:52:25
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.56s           2025-07-15T13:52:25
+================================================================================
+[2025-07-15T13:53:12.641+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.50s           2025-07-15T13:52:55
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T13:52:55
+================================================================================
+[2025-07-15T13:53:42.912+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:53:26
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:53:26
+================================================================================
+[2025-07-15T13:54:13.611+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:53:57
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:53:57
+================================================================================
+[2025-07-15T13:54:44.338+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:54:28
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:54:28
+================================================================================
+[2025-07-15T13:55:15.114+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.54s           2025-07-15T13:54:58
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.51s           2025-07-15T13:54:58
+================================================================================
+[2025-07-15T13:55:45.385+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.54s           2025-07-15T13:55:29
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.51s           2025-07-15T13:55:29
+================================================================================
+[2025-07-15T13:56:15.641+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.53s           2025-07-15T13:56:00
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.50s           2025-07-15T13:56:00
+================================================================================
+[2025-07-15T13:56:46.417+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.47s           2025-07-15T13:56:31
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T13:56:31
+================================================================================
+[2025-07-15T13:56:48.430+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T13:56:48.451+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T13:57:17.235+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.58s           2025-07-15T13:57:02
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.57s           2025-07-15T13:57:02
+================================================================================
+[2025-07-15T13:57:47.574+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:57:32
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.46s           2025-07-15T13:57:32
+================================================================================
+[2025-07-15T13:58:17.800+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.58s           2025-07-15T13:58:03
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.57s           2025-07-15T13:58:03
+================================================================================
+[2025-07-15T13:58:48.041+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.48s           2025-07-15T13:58:34
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:58:34
+================================================================================
+[2025-07-15T13:59:18.281+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.57s           2025-07-15T13:59:05
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.54s           2025-07-15T13:59:05
+================================================================================
+[2025-07-15T13:59:48.979+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.49s           2025-07-15T13:59:35
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.47s           2025-07-15T13:59:35
+================================================================================
+[2025-07-15T14:00:19.222+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T14:00:06
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T14:00:06
+================================================================================
+[2025-07-15T14:00:49.367+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.52s           2025-07-15T14:00:43
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.45s           2025-07-15T14:00:37
+================================================================================
+[2025-07-15T14:01:19.418+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.69s           2025-07-15T14:01:14
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T14:00:51
+================================================================================
+[2025-07-15T14:01:48.746+0000] {manager.py:738} INFO - Searching for files in /opt/airflow/dags
+[2025-07-15T14:01:48.791+0000] {manager.py:741} INFO - There are 2 files in /opt/airflow/dags
+[2025-07-15T14:01:49.802+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.55s           2025-07-15T14:01:45
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.48s           2025-07-15T14:01:22
+================================================================================
+[2025-07-15T14:02:19.955+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.43s           2025-07-15T14:02:15
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.42s           2025-07-15T14:01:53
+================================================================================
+[2025-07-15T14:02:50.207+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.46s           2025-07-15T14:02:46
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.40s           2025-07-15T14:02:23
+================================================================================
+[2025-07-15T14:03:20.413+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.44s           2025-07-15T14:03:17
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.44s           2025-07-15T14:02:54
+================================================================================
+[2025-07-15T14:03:50.714+0000] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/currency_rates_daily_update.py                           1           0  0.44s           2025-07-15T14:03:48
+/opt/airflow/dags/extract_daily_to_s3.py                                   1           0  0.42s           2025-07-15T14:03:25
+================================================================================
+[2025-07-15T14:04:17.629+0000] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15

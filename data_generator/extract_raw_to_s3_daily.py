@@ -5,8 +5,6 @@ import pandas as pd
 from datetime import datetime, timedelta
 from io import StringIO
 from botocore.exceptions import ClientError
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import ONLINE_FILE_NAME, OFFLINE_FILE_NAME, S3, TMSTMP,\
                      DATE, DATE_FORMAT, MINIO_UNPROCESSED, MINIO_RAW
 

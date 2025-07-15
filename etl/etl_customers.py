@@ -1,9 +1,5 @@
 import pandas as pd
 import re
-import os
-import sys
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import BASE_COLS
 
 def normalize_phone(phone):

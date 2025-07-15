@@ -2,8 +2,6 @@ import subprocess
 import time
 import os
 import sys
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import TIME_TO_SLEEP_ETL, SCRIPT_ETL
 
 # 1. Use the same Python interpreter that runs this script

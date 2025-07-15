@@ -1,10 +1,6 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
-import sys
-import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 from data_generator.extract_raw_to_s3_daily import extract_one_day_to_unprocessed
 
 default_args = {

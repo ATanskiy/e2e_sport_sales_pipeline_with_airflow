@@ -9,7 +9,7 @@ os.environ['KAGGLE_CONFIG_DIR'] = os.path.join(os.path.dirname(__file__), '../.k
 from kaggle.api.kaggle_api_extended import KaggleApi
 from botocore.exceptions import ClientError
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import ONLINE_FILE_NAME, OFFLINE_FILE_NAME, RAW_DATA_FOLDER,\
                     DOWNLOAD_TEMP, S3, DATASET, TMSTMP, DATE, MINIO_RAW
 

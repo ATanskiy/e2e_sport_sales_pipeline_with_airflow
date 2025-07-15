@@ -1,8 +1,6 @@
 import os
 import sys
 import botocore
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import S3, BUCKET_LIST
 
 def delete_all_objects(bucket):

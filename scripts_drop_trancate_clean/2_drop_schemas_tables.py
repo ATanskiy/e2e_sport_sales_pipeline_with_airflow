@@ -1,7 +1,6 @@
 # a trick to run scripts from another folder
 import sys
 import os
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import DROP_TABLE_SCHEMAS_PATH
 
 # run_sql_init.py

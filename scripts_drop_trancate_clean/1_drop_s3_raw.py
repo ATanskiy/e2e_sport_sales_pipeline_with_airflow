@@ -2,8 +2,6 @@ import os
 import sys
 from dotenv import load_dotenv
 from botocore.exceptions import ClientError
-
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import S3, MINIO_RAW
 
 try:
