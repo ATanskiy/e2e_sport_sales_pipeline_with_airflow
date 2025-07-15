@@ -1,0 +1,11 @@
+payment_method_id,payment_method
+1,PayPal
+2,bank transfer
+3,bank wire
+4,cash
+5,credit card
+6,debit card
+7,eps
+8,gift card
+9,iDEAL
+10,mobile payment

@@ -1,0 +1,575 @@
+product_id,product,brand_name,category_id,subcategory_id
+1,3DX Jaw Guard Upgrade Set Lower jaw overlays,Xenith,5,12
+2,3DX Jaw Guard Xenith,Xenith,5,12
+3,Adams Chinstrap 4-point Lo (S) Gel25,Adams,5,4
+4,Adams FBFM-NOPO,Adams,5,9
+5,"Adams Hip Pad 3PC Set 1/2"" Vinyl High Rise (1206)",Adams,6,18
+6,Adams Hip Pad 3PC Slotted High Rise (1303),Adams,6,18
+7,Adams Hip Pad Set 3PC Intermediate Snap-In (1326),Adams,6,18
+8,Adams Spine Pad (1205),Adams,6,18
+9,Adams Spine Pad (1303),Adams,6,18
+10,Adams T-ANJOP-D,Adams,5,9
+11,Adams T-ARJOP-U-DW,Adams,5,9
+12,Adams TPGP-ANJOP-D,Adams,5,9
+13,Adams TPGP-ARJOP-D,Adams,5,9
+14,Adams TPGP-ARJOP-U,Adams,5,9
+15,Adams TPGP-ARJOP-UD,Adams,5,9
+16,"Adams Thigh Pad, Universal Bumper, Pairs (MGU95)",Adams,6,18
+17,Adams YFBFM-NOPO,Adams,5,9
+18,Adidas 5-Star Team Cushioned Crew,Adidas,3,24
+19,Adidas Adizero Cushioned Crew Socks,Adidas,3,24
+20,Adidas Adizero Scorch Black/Royal (GW5071),Adidas,3,15
+21,Adidas Adizero Scorch White/Black (GX5126),Adidas,3,15
+22,Adidas Adizero Spark (GV9087),Adidas,3,15
+23,Adidas Alphaskin Max Cushioned Crew Socks,Adidas,3,24
+24,Adidas Audible Padded Adult Pants (609P),Adidas,2,19
+25,Adidas Freak Spark MD23 (HP7712),Adidas,3,15
+26,Adidas Grid Iron 7 D Mid (945847),Adidas,3,6
+27,Adidas Scorch 7 Low D,Adidas,3,6
+28,Adidas Skull Cap,Adidas,5,20
+29,Adidas Tech Fit Long Sleeve Top,Adidas,2,5
+30,Adidas Tech Fit Short Sleeve Top,Adidas,2,5
+31,Adidas Traxion Menace Crew Socks,Adidas,3,24
+32,All Star ASWBQB Playmaker Wrist Band,All Star,1,27
+33,All Star ASWBYQB Youth QB Wristband,All Star,1,27
+34,All Star FBJ2A Adult Porthole Mesh w/Double PM Yoke,All Star,2,21
+35,All Star FBP1A Adult 14 Slot Poly Pant,All Star,2,19
+36,All Star GDK-3DL Adult DeLuxe 3-Pocket Girdleshort,All Star,6,11
+37,All Star GDK5.3YDLP 5-Pocket: 3-Pad Integrated Girdle Youth,All Star,6,11
+38,All Star Girdlepads Lightw.Youth(pairs),All Star,6,18
+39,All Star Girdlepads Lightweight (pairs),All Star,6,18
+40,All Star KP2000 Superlight Molded Knee Pad (Pairs),All Star,6,18
+41,All Star KP2500 Small Adult Knee Pad (Pairs),All Star,6,18
+42,All Star SPT1500 Catalyst S-Pad Youth,All Star,8,28
+43,All Star Thighpads Lightw.Youth (pairs),All Star,6,18
+44,All Star Thighpads Lightweight (pairs),All Star,6,18
+45,"Barrel Lace Lock, Nylon",Adams,1,23
+46,Champro Arm Sleeve - Blue,Champro,7,3
+47,Champro Gauntlet II Shoulder Pad,Champro,8,2
+48,Champro Gauntlet III Shoulder Pad,Champro,8,2
+49,Chin Strap Buckles Steel,Adams,5,13
+50,Crep Protect 200ml Spray,Crep Protect,3,1
+51,Crep Protect Cure Cleaning Kit,Crep Protect,3,1
+52,Crep Protect Pill,Crep Protect,3,1
+53,Crep Protect Sports Bag,Crep Protect,3,1
+54,Crep Protect Wipes 12 Pack,Crep Protect,3,1
+55,Crep Protect Wipes 32 Pack,Crep Protect,3,1
+56,Crep Protect x New Era Spray,Crep Protect,3,1
+57,Crep The Ultimate Shoe Laces Flat,Crep Protect,3,1
+58,Cutters CG10020 Rev Pro 4.0 The King,Cutters,4,2
+59,Cutters CG10040 Rev 4.0,Cutters,4,2
+60,Cutters CG10060 Rev 4.0 Youth,Cutters,4,28
+61,Cutters CG10200 Gamer 4.0,Cutters,4,2
+62,Cutters CG10220 Game Day Padded Glove 2.0,Cutters,4,2
+63,Cutters CG10240 Game Day Padded Glove 2.0 Youth,Cutters,4,28
+64,Cutters CG10440 Rev Pro 5.0 Receiver Gloves Solid,Cutters,4,2
+65,Cutters CG10480 Rev Pro 5.0 Receiver Gloves LE,Cutters,4,2
+66,Cutters CG10560 Rev 5.0 Receiver Gloves,Cutters,4,2
+67,Cutters CG10580 Rev 5.0 Receiver Gloves Youth,Cutters,4,28
+68,Cutters CG10620 Gamer 5.0 Padded Receiver Gloves,Cutters,4,2
+69,Cutters CG10640 Force 5.0 Lineman Gloves,Cutters,4,2
+70,Cutters Coaches Glove,Cutters,4,2
+71,Cutters JE11 Fan Series,Cutters,4,2
+72,Cutters JE11 Fan Series Youth,Cutters,4,28
+73,Cutters JE11 Signature Series Youth,Cutters,4,28
+74,"Cutters Playmaker ""The Mini""",Cutters,1,27
+75,Cutters Playmaker Triple Adult Wristcoach,Cutters,1,27
+76,Cutters Playmaker Triple Youth Wristcoach,Cutters,1,27
+77,Cutters REV Impact 5Pad Shirt Boys,Cutters,6,17
+78,Cutters S150 Game Day Receiver Adult,Cutters,4,2
+79,Cutters S150 Game Day Receiver Topo Adult,Cutters,4,2
+80,Cutters S150 Game Day Receiver Topo Youth,Cutters,4,28
+81,Cutters S150 Game Day Receiver Youth,Cutters,4,28
+82,Cutters S251 REV 2.0,Cutters,4,2
+83,Cutters S252 Rev 3.0 Receiver,Cutters,4,2
+84,Cutters S252 Rev 3.0 Receiver Youth,Cutters,4,28
+85,Cutters S451 REV Pro 2.0,Cutters,4,2
+86,Cutters S451 REV Pro 2.0 - Youth,Cutters,4,28
+87,Cutters S451-S REV Pro 2.0 Solid,Cutters,4,2
+88,Cutters S452 Rev Pro 3.0 Receiver,Cutters,4,2
+89,Cutters S452 Rev Pro 3.0 Receiver Solid,Cutters,4,2
+90,Cutters S500C Rev Pro 4.0,Cutters,4,2
+91,Cutters S500CS Rev Pro 4.0 Solid,Cutters,4,2
+92,Cutters S651 Gamer 2.0,Cutters,4,2
+93,Cutters S651 Gamer 2.0 Youth,Cutters,4,28
+94,Cutters S652 Gamer 3.0 Padded Receiver,Cutters,4,2
+95,Cutters S652 Youth Gamer 3.0 Padded Receiver,Cutters,4,28
+96,Cutters S932 Force 3.0 Lineman,Cutters,4,2
+97,Cutters SO17JE JE11 Signature Series,Cutters,4,2
+98,Cutters The Reinforcer Gloves,Cutters,4,2
+99,Cutters Winter Receiver,Cutters,4,2
+100,"Cutters Wristband 1 3/4""",Cutters,1,27
+101,"Cutters Wristband 1 3/4"" Yin Yang",Cutters,1,27
+102,"Cutters Wristband 4"" Yin Yang",Cutters,1,27
+103,Douglas Commando,Douglas,8,28
+104,Douglas Destroyer 2.0 M50,Douglas,8,2
+105,Douglas Destroyer 2.0 Q22,Douglas,8,2
+106,Douglas EZ Pro Snap (Pairs),Douglas,5,12
+107,Douglas Eclipse PEC01 Black Edition,Douglas,8,2
+108,Douglas Eclipse PEC22 Black Edition,Douglas,8,2
+109,Douglas Eclipse PEC50 Black Edition,Douglas,8,2
+110,Douglas Eclipse PEC99 Black Edition,Douglas,8,2
+111,Douglas Eclipse PECQB Black Edition,Douglas,8,2
+112,Douglas Game Changer Junior,Douglas,1,27
+113,"Douglas LP Legacy 4"" Back Plate",Douglas,8,22
+114,"Douglas LP Legacy 4"" Rib Combo",Douglas,8,22
+115,Douglas Legacy DD,Douglas,8,2
+116,Douglas Legacy JD,Douglas,8,2
+117,Douglas Legacy RD,Douglas,8,2
+118,Douglas Zena 25 (A Cup),Douglas,8,26
+119,Douglas Zena 25 (B Cup),Douglas,8,26
+120,Douglas Zena MS.D (A Cup),Douglas,8,26
+121,Douglas Zena MS.D (B Cup),Douglas,8,26
+122,Evoshield Winter Ball Adult,Evoshield,2,5
+123,Eye Black Stickers,Rawlings,1,8
+124,Eye Black Stickers,Franklin,1,8
+125,Eye Stickers,Rawlings,1,8
+126,Eye Stickers Coloured,Rawlings,1,8
+127,Forelle Baselayer Shirt,Forelle,2,5
+128,Forelle Bumper Set Riddell Speed Helmets,Forelle,5,12
+129,Forelle Bumper Set Riddell Speed Icon Helmets,Forelle,5,12
+130,Forelle Bumper Set Schutt F7 Helmets,Forelle,5,12
+131,Forelle Bumper Set Vicis Zero 2 Helmets,Forelle,5,12
+132,Forelle Bumper Set Xenith Shadow Helmets,Forelle,5,12
+133,Forelle Bumper Set Xenith X2E+ Helmets,Forelle,5,12
+134,Forelle Legging,Forelle,2,5
+135,Girdleshorts 3 pockets,McDavid,6,11
+136,Gridirons wristband,Markwort,1,27
+137,Helmet Washers,Adams,5,13
+138,Jaw Shock Absorbers for Epic Xenith,Xenith,5,12
+139,Jawpad Riddell Revolution Speed Adult Inflatable,Riddell,5,12
+140,"Keyhole Fastener,Steel 1,5 Inc",Adams,1,23
+141,Leader Eyeshield Vision Plus,Markwort,5,12
+142,Makura Anti-Microbial Mouthguard Case,Makura,6,16
+143,Makura Ignis Convertible Adult,Makura,6,16
+144,Makura Ignis Convertible Youth,Makura,6,16
+145,Makura Kyro Pro Strapped Adult,Makura,6,16
+146,Makura Kyro Pro Strapped Youth,Makura,6,16
+147,Makura Lithos Convertible Adult,Makura,6,16
+148,Makura Tephra Max Convertible Adult,Makura,6,16
+149,Makura Toka Convertible Adult,Makura,6,16
+150,Makura Toka Convertible Youth,Makura,6,16
+151,Master Field Jaw Pads 1/2 - White,Master Field,5,12
+152,McDavid (7418) Rival Intg 7 pad 3/4 Pant Adult,McDavid,6,11
+153,McDavid (7418) Rival Intg 7 pad 3/4 Pant Youth,McDavid,6,11
+154,McDavid Hex 5 pad Sleeveless Shirt Adult (7932),McDavid,6,17
+155,McDavid Rival 5 Pad Girdle Adult (7414),McDavid,6,11
+156,McDavid Rival 5 Pad Girdle Youth (7414),McDavid,6,11
+157,McDavid Rival 5 pad Shirt Adult  (7935),McDavid,6,17
+158,McDavid Skully,McDavid,5,20
+159,McDavid Thigh Support,McDavid,7,25
+160,Multi-Sport Sock,Champro,3,24
+161,Neumann Lineman (FBL43),Neumann,4,2
+162,Neumann Lineman (FBL49),Neumann,4,2
+163,Neumann Lineman (FBL51),Neumann,4,2
+164,Neumann Lineman (FBL53),Neumann,4,2
+165,Neumann Lineman Open Fingers (FBL41),Neumann,4,2
+166,Neumann Receiver Gripper II,Neumann,4,2
+167,New Balance MF760MK,New Balance,3,6
+168,New Balance MF990 Low White,New Balance,3,6
+169,Nike Alpha Menace 3 Shark (CV0582),Nike,3,15
+170,Nike Alpha Menace Varsity 3 (CV0586),Nike,3,15
+171,Nike Blitz Shield Clear,Nike,5,12
+172,Nike D Tack 6.0 FG (NFG.21.937),Nike,4,2
+173,Nike DF Skull Wrap 4.0 Black,Nike,5,20
+174,Nike Eye Shield w/Multicolor Decal Pack - Clear,Nike,5,12
+175,Nike Force Savage Pro 2 (AH4000),Nike,3,15
+176,Nike Force Savage Shark 2 (AQ7722),Nike,3,15
+177,Nike Force Savage Shark 2 Wide (BV0151),Nike,3,15
+178,Nike Force Ultimate Mouthguard,Nike,6,16
+179,Nike Gridiron Shield Clear,Nike,5,12
+180,Nike Hyperstrong Core Padded Forearm Shivers,Nike,7,10
+181,Nike Jordan Knit FG (J1002956091),Nike,4,2
+182,Nike Pro Dri-FIT Sleeve 3.0,Nike,7,3
+183,Nike Pro Dri-Fit Shivers 4.0,Nike,7,3
+184,Nike Pro Dri-Fit Sleeves 4.0,Nike,7,3
+185,Nike Pro Dri-Fit Youth Shiver 4.0,Nike,7,3
+186,Nike Pro HyperStrong 3/4-Length Tights,Nike,6,11
+187,Nike Pro Hypercool Skull Cap 4.0 Black,Nike,5,20
+188,Nike Pro Strong Elbow Sleeve Black,Nike,7,7
+189,Nike Superbad 6.0 FG (N.100.2023),Nike,4,2
+190,Nike Swoosh Bicep Bands (Pairs),Nike,1,27
+191,Nike Swoosh Wristbands,Nike,1,27
+192,Nike Vapor Crew Socks,Nike,3,24
+193,Nike Vapor Edge Pro 360 (DQ3670),Nike,3,15
+194,Nike Vapor Edge Shark 2 (DH5088),Nike,3,15
+195,Nike Vapor Edge Team (CZ2606),Nike,3,15
+196,Nike Vapor Jet 6 STS (NFG100.2421),Nike,4,2
+197,Nike Vapor Jet 6 STS Youth (NFG100.2422),Nike,4,28
+198,Nike Vapor Jet 7.0 (N1003505),Nike,4,2
+199,Nike Vapor Jet 7.0 MP (N100.7029),Nike,4,2
+200,Nike Vapor Speed Low TD Navy/Orange,Nike,3,6
+201,Rawlings BS5P09 Girdleshorts (5 P.),Rawlings,6,11
+202,Rawlings Crownimpa,Rawlings,5,12
+203,Rawlings F1500P Youth,Rawlings,2,19
+204,Rawlings F25010W Youth Slotted,Rawlings,2,19
+205,Rawlings F2540 Youth,Rawlings,2,19
+206,Rawlings F3500P Adult Pants,Rawlings,2,19
+207,Rawlings F4500P Adult Pants,Rawlings,2,19
+208,Rawlings F4535 Adult,Rawlings,2,19
+209,Rawlings F4590 Adult Pants,Rawlings,2,19
+210,Rawlings F45KP w/Knee Pads Adult,Rawlings,2,19
+211,Rawlings F5000 Adult,Rawlings,2,19
+212,Rawlings FEPY Youth FTBL Elbow Pad,Rawlings,7,7
+213,Rawlings FFAPY Youth FTBL Forearm Pad,Rawlings,7,10
+214,Rawlings FG5 5 Pad Int Girdle Adult,Rawlings,6,11
+215,Rawlings FJ255 Full Mesh Pro Cut Adult,Rawlings,2,21
+216,Rawlings FJ9055FI Adult,Rawlings,2,21
+217,Rawlings FJ9204 A.F. Shirt Adult,Rawlings,2,21
+218,Rawlings FJHD HMR-D Pro Cut Adult Shirt,Rawlings,2,21
+219,Rawlings FJMSIF Adult,Rawlings,2,21
+220,Rawlings FJPR1 Adult,Rawlings,2,21
+221,Rawlings FJSI Adult,Rawlings,2,21
+222,Rawlings FJUSCI Adult,Rawlings,2,21
+223,Rawlings FP147 Adult Pants,Rawlings,2,19
+224,Rawlings FPL Integrated Adult Game Pants,Rawlings,2,19
+225,Rawlings FPPI Poly Integrated Adult Pants,Rawlings,2,19
+226,Rawlings FRNTBP Front Bumper,Rawlings,5,12
+227,Rawlings FRONTAIA (S-L) Pad,Rawlings,5,12
+228,Rawlings GB2 Rib Protection Vest,Rawlings,8,22
+229,Rawlings GBB2 Youth Varsity Blocking Vest,Rawlings,8,22
+230,Rawlings IMPULSE Helmets (S-M-L),Rawlings,5,2
+231,Rawlings IMPULSE Helmets Odd. Colors (S-M-L),Rawlings,5,2
+232,Rawlings IMPULSE Plus Helmets (S-M),Rawlings,5,2
+233,Rawlings PO3R,Rawlings,5,9
+234,Rawlings PO3R2XL,Rawlings,5,9
+235,Rawlings PO3RH Hollow Wire,Rawlings,5,9
+236,Rawlings PO3RU,Rawlings,5,9
+237,Rawlings PO3RU2XL,Rawlings,5,9
+238,Rawlings QUANTUM Helmets (Large),Rawlings,5,2
+239,Rawlings QUANTUM Helmets Odd. Colors  (S-M-L),Rawlings,5,2
+240,Rawlings QUANTUM Plus Helmets (Medium),Rawlings,5,2
+241,Rawlings RIGHTAIA (S-L) Pad,Rawlings,5,12
+242,Rawlings SO2REG,Rawlings,5,9
+243,Rawlings SO2REGH Hollow Wire,Rawlings,5,9
+244,Rawlings SO2REGXL,Rawlings,5,9
+245,Rawlings SO2RH Hollow Wire,Rawlings,5,9
+246,Rawlings SO2RU,Rawlings,5,9
+247,Rawlings SO2RUH Hollow Wire,Rawlings,5,9
+248,Rawlings SO2RUXL,Rawlings,5,9
+249,Rawlings SO2RXL,Rawlings,5,9
+250,Rawlings TACHAC2 Tachyon AC2 Pad,Rawlings,5,12
+251,Rawlings TACHYON Helmets (S-M),Rawlings,5,2
+252,Rawlings XLHRH XL Lite Highrise Hip Pad,Rawlings,6,18
+253,Rawlings XLLRH Lite Low Rise Hip Pad,Rawlings,6,18
+254,Rawlings XLSP Spine Pad,Rawlings,6,18
+255,Rawlings XLTP XL Lite Thigh Pad,Rawlings,6,18
+256,Rawlings XPTP XL Pad Lite Pro/PW Thigh,Rawlings,6,18
+257,Rawlings YF25P Youth D-Flexion,Rawlings,2,19
+258,Rawlings YFJ9204 Youth A.F. Shirt,Rawlings,2,21
+259,Rawlings YFJCT Youth Cutback Pro Cut,Rawlings,2,21
+260,Rawlings YFJHD HMR-D Pro Cut Youth Shirt,Rawlings,2,21
+261,Rawlings YFJPR1 Youth,Rawlings,2,21
+262,Rawlings YFJSI Youth,Rawlings,2,21
+263,Rawlings YFP147 Youth,Rawlings,2,19
+264,Rawlings YFPPI Poly Integrated Youth Pants,Rawlings,2,19
+265,Rawlings YMRC Youth Rib Protector,Rawlings,8,22
+266,Reebok NFL Burner Speed Low SD3,Reebok,3,6
+267,Reyrr Vision Visor Assorted Colors,Reyrr,5,12
+268,Reyrr Vision Visor Clear,Reyrr,5,12
+269,Reyrr Vision Visor Revo Assorted Colors,Reyrr,5,12
+270,Reyrr Vision Visor VICI Assorted Colors,Reyrr,5,12
+271,Reyrr Vision Visor VICI Clear,Reyrr,5,12
+272,Riddell 1335 1/4 Snap Stud Stainless (R60104),Riddell,5,13
+273,Riddell Anatom Neck Roll,Riddell,8,22
+274,Riddell Anatom Rib Belt Youth,Riddell,8,22
+275,Riddell Base Girdle 5 PC Intergrated Youth,Riddell,6,11
+276,Riddell Biolite Vent Air 7-Piece Pad Set - Slotted,Riddell,6,18
+277,Riddell Combo Rib Cage for Air Pack,Riddell,8,22
+278,Riddell Dog Point Screw 1/2 In Waxed (R60108DPSW),Riddell,5,13
+279,Riddell Edge Youth Vinyl C-Front Pocket w/Bumper (R46028C00),Riddell,5,12
+280,Riddell Edge Youth Vinyl Front Pocket w/Bumper (R4602800),Riddell,5,12
+281,Riddell Five-Piece Full Length Integrated Tight,Riddell,6,11
+282,Riddell Foundation B/N/S Liner (R46670),Riddell,5,12
+283,Riddell Foundation Custom Fit Shim Kit (918540),Riddell,5,12
+284,Riddell Foundation E-Crown Liner (R460674),Riddell,5,12
+285,Riddell Foundation F-Crown Liner (R460677F),Riddell,5,12
+286,Riddell Foundation Helmets (M-L),Riddell,5,2
+287,Riddell Foundation Varsity Crown Liner (R87701),Riddell,5,12
+288,Riddell G-2BD Small,Riddell,5,9
+289,Riddell G2BDC (R74910),Riddell,5,9
+290,Riddell G3BD (R74975),Riddell,5,9
+291,Riddell GJI Adult,Riddell ,2,21
+292,Riddell Hard Cup Chinstrap Lo,Riddell,5,4
+293,Riddell Helmet Liner Valve (R45926),Riddell,5,13
+294,Riddell Helmet T-Nut Tool (R27514),Riddell,5,13
+295,Riddell Inflation kit pump and glycerin (R27619),Riddell,5,13
+296,Riddell J4600 Hard Cup Chinstrap Mid/Hi,Riddell,5,4
+297,Riddell Jawpads - 2 pc,Riddell,5,12
+298,Riddell Kombine AP,Riddell,8,2
+299,Riddell Kombine LN,Riddell,8,2
+300,Riddell Kombine SK,Riddell,8,2
+301,Riddell Long T-Nut Stainless Steel (R60105),Riddell,5,13
+302,Riddell Neckroll for Airpack,Riddell,8,22
+303,Riddell PK Series Back Plate (R48990/1),Riddell,8,22
+304,Riddell PK Series Back Plate QB/WR (R48992),Riddell,8,22
+305,Riddell Phenom AP,Riddell,8,2
+306,Riddell Phenom SK,Riddell,8,2
+307,Riddell Power 5 Piece Int. Girdle Youth (RGWPTY),Riddell,6,11
+308,Riddell Power 5 Piece Int. Girdle Youth (RYGWPTC),Riddell,6,11
+309,Riddell Power CPX10i QB/WR,Riddell,8,2
+310,Riddell Power CPX40i FB/LB,Riddell,8,2
+311,Riddell Power CPX60i OL,Riddell,8,2
+312,Riddell Power CPX80i DL/TE *USED*,Riddell,8,2
+313,Riddell Power JPK+ All Purpose,Riddell,8,14
+314,Riddell Power JPK+ Skilled,Riddell,8,14
+315,Riddell Power Padded Girdle Youth (RGWPSTY),Riddell,6,11
+316,Riddell Power Padded Shirt Adult Grey (RTPTP),Riddell,6,17
+317,Riddell Power Padded Shirt Youth (RTPTPCY),Riddell,6,17
+318,Riddell Power Padded Shirt Youth Grey (RTPTPY),Riddell,6,17
+319,Riddell Power SPX LB/FB,Riddell,8,2
+320,Riddell Power SPX OL/DL,Riddell,8,2
+321,Riddell Power SPX QB/WR,Riddell,8,2
+322,Riddell Power SPX RB/DB,Riddell,8,2
+323,Riddell Pursuit Youth,Riddell,8,28
+324,Riddell QR Combo Tool - Universal (R2764022),Riddell,5,13
+325,Riddell Quick Release Receptacle (R45960),Riddell,5,13
+326,Riddell RPJPE Scamper Practice Jersey,Riddell,2,21
+327,Riddell RZ Thin Cage Strap (47951),Riddell,5,13
+328,Riddell Rival JV,Riddell,8,14
+329,Riddell Rival Varsity,Riddell,8,2
+330,Riddell Rocket Pant w/Comb Waist Adult,Riddell,2,19
+331,"Riddell Rubber Grommet, Fits All Riddell Helmets (45969)",Riddell,5,13
+332,Riddell S-Bar HS4 Facemask Mounting Kit (R455914),Riddell,5,13
+333,Riddell S2B-HS4 (961759),Riddell,5,9
+334,Riddell S2BD-HS4 (961914),Riddell,5,9
+335,Riddell S2BD-SW-HS4 (R961SP1),Riddell,5,9
+336,Riddell S2BDC-HS4 (961910),Riddell,5,9
+337,Riddell S2BDC-TX-HS4 (R961SP3),Riddell,5,9
+338,Riddell S2BDC-TX-LW (R94921SP11),Riddell,5,9
+339,Riddell S2EG-II-HS4 (961757),Riddell,5,9
+340,Riddell S2EG-SW-HS4 (R961SP2),Riddell,5,9
+341,Riddell S3BD (R94975),Riddell,5,9
+342,Riddell S3BD-HS4 (R961SP4),Riddell,5,9
+343,Riddell S3BD-SP (R94921SP7),Riddell,5,9
+344,Riddell SF-2BD (R95414),Riddell,5,9
+345,Riddell SF-2BD-HD (R954SP7),Riddell,5,9
+346,Riddell SF-2BD-SW (R954SP2),Riddell,5,9
+347,Riddell SF-2BDC (R95410),Riddell,5,9
+348,Riddell SF-2BDC-HD (R954SP9),Riddell,5,9
+349,Riddell SF-2BDC-TX (R954SP5),Riddell,5,9
+350,Riddell SF-2BDC-TX-HD  (R954SP12),Riddell,5,9
+351,Riddell SF-2EG-II (R95457),Riddell,5,9
+352,Riddell SF-2EG-II-HD (R954SP8),Riddell,5,9
+353,Riddell SF-2EG-SW (R954SP3),Riddell,5,9
+354,Riddell SF-2EG-SW-HD (R954SP10),Riddell,5,9
+355,Riddell SF-2EG-TX (R954SP6),Riddell,5,9
+356,Riddell SF-2EG-TX-HD  (R954SP13),Riddell,5,9
+357,Riddell SF-3BD (R954SP1),Riddell,5,9
+358,Riddell SF-KICKER (R954SP11),Riddell,5,9
+359,Riddell SPEEDFLEX DIAMOND Helmets,Riddell,5,2
+360,Riddell SPEEDFLEX DIAMOND Helmets Painted,Riddell,5,2
+361,Riddell SPEEDFLEX Helmets (M-L),Riddell,5,2
+362,Riddell SPEEDFLEX Helmets (XL),Riddell,5,2
+363,Riddell SPEEDFLEX Helmets Painted  (M-L),Riddell,5,2
+364,Riddell SPEEDFLEX Helmets Painted (XL),Riddell,5,2
+365,Riddell SPK+ LB/FB,Riddell,8,2
+366,Riddell SPK+ OL/DL,Riddell,8,2
+367,Riddell SPK+ QB/WR,Riddell,8,2
+368,Riddell SPK+ RB/DB,Riddell,8,2
+369,Riddell Safety Pants w/Pads Adult,Riddell,2,19
+370,Riddell Short T-Nut Stainless Steel (R60106),Riddell,5,13
+371,Riddell Shoulder Pad Acc. Hardware Kit (R48989),Riddell,1,23
+372,Riddell Speed B/N/S Liner (R93965),Riddell,5,12
+373,Riddell Speed Custom Fitting Shim Kit (R918529),Riddell,5,12
+374,Riddell Speed Icon Accessory Kit (R27651),Riddell,5,13
+375,Riddell Speed Icon B/N/S Liner Black (R93988),Riddell,5,12
+376,Riddell Speed Icon B/N/S Liner White (R93988),Riddell,5,12
+377,Riddell Speed Icon C-Front Pocket w/Logo - Black (R9388VC01),Riddell,5,12
+378,Riddell Speed Icon C-Front Pocket w/Logo - White (R9388VC00),Riddell,5,12
+379,Riddell Speed Icon Front Pad (R9199033),Riddell,5,12
+380,Riddell Speed Icon Front Pocket w/Logo - Black (R9388V01),Riddell,5,12
+381,Riddell Speed Icon Front Pocket w/Logo - White (R9388V00),Riddell,5,12
+382,Riddell Speed Icon Helmets (M-L),Riddell,5,2
+383,Riddell Speed Icon Helmets (XL),Riddell,5,2
+384,Riddell Speed Icon Helmets Painted (M-L),Riddell,5,2
+385,Riddell Speed Icon Helmets Painted (XL),Riddell,5,2
+386,Riddell Speed Icon Inf. S-Pad Black (9588),Riddell,5,12
+387,Riddell Speed Icon Inf. S-Pad White (9588),Riddell,5,12
+388,Riddell Speed Icon Overliner (948829),Riddell,5,12
+389,Riddell Speed Icon Standard Crown Liner (R45988),Riddell,5,12
+390,Riddell Speed Icon Threaded Valve Retainer Cap (R929901),Riddell,5,13
+391,Riddell Speed Inf. S-Pad Black,Riddell,5,12
+392,Riddell Speed Inf. S-Pad White (95759),Riddell,5,12
+393,Riddell Speed/Speed Icon Classic Mox Box (R276501),Riddell,5,13
+394,Riddell Speedflex Accessory Kit Varsity (R27599),Riddell,5,13
+395,Riddell Speedflex Back Side Liner White SM/MD/LG (R92550033),Riddell,5,12
+396,Riddell Speedflex Back Side Liner White XL (R92550044),Riddell,5,12
+397,Riddell Speedflex C-Front Pocket - Black (R923C01),Riddell,5,12
+398,Riddell Speedflex C-Front Pocket - White (R923C00),Riddell,5,12
+399,Riddell Speedflex Cam-Loc Chinstrap Soft Cup,Riddell,5,4
+400,Riddell Speedflex Cam-Loc Hard Cup CS Combo,Riddell,5,4
+401,Riddell Speedflex Cam-Loc Housing - Black (R926577),Riddell,5,13
+402,Riddell Speedflex Cam-Loc Strap Stopper (R9205501),Riddell,5,13
+403,Riddell Speedflex Cam-Loc TCP CS Combo,Riddell,5,4
+404,Riddell Speedflex Diamond Face Frame Left (RSFDJPL),Riddell,5,12
+405,Riddell Speedflex Diamond Rear Side Bonnet Tab Long,Riddell,5,12
+406,Riddell Speedflex Diamond Rear Side Bonnet Tab Short,Riddell,5,12
+407,Riddell Speedflex Face Frame Black/Black 1 1/4  Inch,Riddell,5,12
+408,Riddell Speedflex Face Frame Black/Black 1 Inch,Riddell,5,12
+409,Riddell Speedflex Face Frame Black/Black 3/4 Inch,Riddell,5,12
+410,Riddell Speedflex Face Frame White/Black 1 1/4 Inch,Riddell,5,12
+411,Riddell Speedflex Face Frame White/Black 1 Inch,Riddell,5,12
+412,Riddell Speedflex Face Frame White/White 1 Inch,Riddell,5,12
+413,Riddell Speedflex Face Frame White/White 3/4 Inch,Riddell,5,12
+414,Riddell Speedflex Face Masks Mounting Kit (R45511),Riddell,5,13
+415,Riddell Speedflex Front Pad (R92400),Riddell,5,12
+416,Riddell Speedflex Front Pocket - Black (R92301),Riddell,5,12
+417,Riddell Speedflex Front Pocket - White Bumper (R92300),Riddell,5,12
+418,Riddell Speedflex Hard Cup Chinstrap Combo,Riddell,5,4
+419,Riddell Speedflex Inflatable Crown Liner (R92570033),Riddell,5,12
+420,Riddell Speedflex Mox Box (R27625),Riddell,5,13
+421,Riddell Speedflex Occipital Liner Black (R926701),Riddell,5,12
+422,Riddell Speedflex Occipital Liner White (R926700),Riddell,5,12
+423,Riddell Speedflex Overliner Black,Riddell,5,12
+424,Riddell Speedflex Quick Release Mini Pin (R75961),Riddell,5,13
+425,Riddell Speedflex Ratchet Thumb Screw (R60115),Riddell,5,13
+426,Riddell Speedflex Rubber Grommet (R45360),Riddell,5,13
+427,Riddell Speedflex Shim Kit (R918601),Riddell,5,12
+428,Riddell Speedflex Side Top Hinge Mounting Clip (R920811),Riddell,5,13
+429,Riddell Speedflex Strap Loc Screw 8/32 x 3/8 (49762),Riddell,5,13
+430,Riddell Speedflex Strap-Loc Black (R9263),Riddell,5,13
+431,Riddell Speedflex TCP Chinstrap Combo,Riddell,5,4
+432,Riddell Speedflex Threaded Valve Retainer Cap (R920401),Riddell,5,13
+433,Riddell Speedflex/Speed Combo Mox Box (R27523),Riddell,5,13
+434,Riddell Speedflex/Speed Icon Side Mounting Clip (R920813),Riddell,5,13
+435,Riddell Strap-Loc Kit Complete - Black (R45973),Riddell,5,13
+436,Riddell Surge Youth,Riddell,8,28
+437,Riddell TCP Chinstrap LG/XL Combo,Riddell,5,4
+438,Riddell TCP Chinstrap SM/MD Combo,Riddell,5,4
+439,Riddell Threaded Valve Grommet (920488),Riddell,5,13
+440,Riddell Top Face Mask Mounting Clip - HS4 S-Bar (R918680),Riddell,5,13
+441,Riddell Top Mounting Clip (918487),Riddell,5,13
+442,Riddell Varsity Backplate (49008),Riddell,8,22
+443,Riddell Varsity Rib Vest,Riddell,8,22
+444,Riddell Victor-I Crown Liner (R948),Riddell,5,12
+445,Riddell Victor-I Front Pad (R9281689),Riddell,5,12
+446,Riddell Victor-I Inflation Air Bladder (R9122987TRV),Riddell,5,12
+447,Riddell Victor-I Inflation Bladder (R9122987),Riddell,5,12
+448,Riddell Victor-I Overliner w/Wht Front Bump (R987509),Riddell,5,12
+449,Riddell Victor-I Rear Pad (R92087),Riddell,5,12
+450,Riddell Victor-I S-Pads Inflatable Grey Left,Riddell,5,12
+451,Riddell Victor-I S-Pads Inflatable Grey Right,Riddell,5,12
+452,Riddell Victor-I Side Liner (R928788),Riddell,5,12
+453,Riddell Victor-i Youth Helmets,Riddell,5,28
+454,Riddell Victor-i Youth Helmets Painted,Riddell,5,28
+455,Riddell Youth Backplate (45249),Riddell,8,22
+456,SD Ultra ShockSkin 3+2 Impact Short Youth (596),Shock Doctor,6,11
+457,SKLZ Receiver Training Glove,SKLZ,4,2
+458,Schutt AiR Maxx Flex 2.0 All Purpose Shoulder Pads,Schutt,8,2
+459,Schutt Air Maxx Flex 2.0 QB/WR Shoulder Pads,Schutt,8,2
+460,Schutt Air Maxx Hybrid All Purpose Shoulder Pads,Schutt,8,2
+461,Schutt Air Maxx Hybrid OL/DL Shoulder Pads,Schutt,8,2
+462,Schutt Air Maxx Hybrid QB/WR Shoulder Pads,Schutt,8,2
+463,Schutt DNA RJOP-UB-DW-XL,Schutt,5,9
+464,Schutt Jaw Pads F7 / Z10 / Q10 Leather Pair,Schutt,5,12
+465,Schutt Mid Flex 4.0 All Purpose Youth Shoulder Pads,Schutt,8,2
+466,Schutt ProTech All-In-One Girdle,Schutt,6,11
+467,Schutt RJOP-DW,Schutt,5,9
+468,Schutt Varsity Flex 4.0 All Purpose Shoulder Pads,Schutt,8,2
+469,Schutt Varsity Flex 4.0 Skill Shoulder Pads,Schutt,8,2
+470,Schutt XV HD All Purpose Shoulder pad,Schutt,8,2
+471,Schutt XV HD OL/DL Shoulder pad,Schutt,8,2
+472,Schutt XV HD QB/WR Shoulder pad,Schutt,8,2
+473,Schutt XV HD Skill Shoulder pad,Schutt,8,2
+474,Schutt XV7 All Purpose Shoulder Pads,Schutt,8,2
+475,Schutt XV7 Skill Shoulder Pads,Schutt,8,2
+476,Schutt Y Flex 4.0 All Purpose Youth Shoulder Pads,Schutt,8,2
+477,Shock Doctor 2 Pack Shields,Shock Doctor,6,16
+478,Shock Doctor 3+2 Impact Short Youth (529),Shock Doctor,6,11
+479,Shock Doctor Backplate,Shock Doctor,8,22
+480,Shock Doctor Bolt Lip Guard Irid Clear/Iridescent White Lux,Shock Doctor,6,16
+481,Shock Doctor Bolt Lip Guard Prints Stars & Stripes,Shock Doctor,6,16
+482,Shock Doctor Bolt Lipguard,Shock Doctor,6,16
+483,Shock Doctor Chinstrap Ultra Carbon (SD500),Shock Doctor,5,4
+484,Shock Doctor Gel Max Power Adult,Shock Doctor,6,16
+485,Shock Doctor Gel Max Youth w/Case,Shock Doctor,6,16
+486,Shock Doctor Gel Nano Adult,Shock Doctor,6,16
+487,Shock Doctor Gel Nano Youth,Shock Doctor,6,16
+488,Shock Doctor Interchange - Chassis + Shield Adult,Shock Doctor,6,16
+489,Shock Doctor Iridescent Interchange w/Chassis Irid. Fang,Shock Doctor,6,16
+490,Shock Doctor MG Tether - 1 pack,Shock Doctor,6,16
+491,Shock Doctor Max Air Flow 2.0 Iridescent,Shock Doctor,6,16
+492,Shock Doctor Max Air Flow Iridescent Lux Black Lux/Irid,Shock Doctor,6,16
+493,Shock Doctor Max Air Flow Lip Guard 3D Iridesc. Chain Silver,Shock Doctor,6,16
+494,Shock Doctor Max Air Flow Lip Guard Chrome Black/White Flag,Shock Doctor,6,16
+495,Shock Doctor Max Air Flow Lip Guard Print Black/Red Lux,Shock Doctor,6,16
+496,Shock Doctor Max Air Flow Lip Guard Print Black/White Hounds,Shock Doctor,6,16
+497,Shock Doctor Max Air Flow Lip Guard Print Lux Black,Shock Doctor,6,16
+498,Shock Doctor Max Air Flow Lip Guard Print White/Gold Lux,Shock Doctor,6,16
+499,Shock Doctor Max Air Flow Lip Guard Stars & Stripes/Gold,Shock Doctor,6,16
+500,Shock Doctor Max AirFlow 2.0 LG Adult,Shock Doctor,6,16
+501,Shock Doctor Max AirFlow LG,Shock Doctor,6,16
+502,Shock Doctor Max Airflow 2.0 Lip Guard,Shock Doctor,6,16
+503,Shock Doctor Mouthguard Case,Shock Doctor,6,16
+504,Shock Doctor Mouthguard Case Chrome,Shock Doctor,6,16
+505,Shock Doctor Mouthguard Holder,Shock Doctor,6,16
+506,Shock Doctor Nano 3D Adult,Shock Doctor,6,16
+507,Shock Doctor Nano Double,Shock Doctor,6,16
+508,Shock Doctor NoSweat Helmet Liner Black - 12 pack,Shock Doctor,5,12
+509,Shock Doctor NoSweat Helmet Liner Black - 6 pack,Shock Doctor,5,12
+510,Shock Doctor Reflex Forearm Guard w/CrushTech,Shock Doctor,7,10
+511,Shock Doctor SD20400 Showtime Receiver Glove,Shock Doctor,4,2
+512,Shock Doctor Shield,Shock Doctor,6,16
+513,Shock Doctor ShockSkin 3PdSL Shirt Youth (537),Shock Doctor,6,17
+514,Shock Doctor Showtime Back Plate,Shock Doctor,8,22
+515,Shock Doctor Showtime Chin Strap LE,Shock Doctor,5,4
+516,Shock Doctor Showtime Chin Strap Solid,Shock Doctor,5,4
+517,Shock Doctor Showtime Comp Arm Sleeve,Shock Doctor,7,3
+518,Shock Doctor Showtime Comp Arm Sleeve Solid,Shock Doctor,7,3
+519,Shock Doctor Showtime Comp Calf Sleeve,Shock Doctor,7,3
+520,Shock Doctor Showtime Comp Calf Sleeve Solid,Shock Doctor,7,3
+521,Shock Doctor Ultra Pro Chin Strap (SD509),Shock Doctor,5,4
+522,Shock Doctor Ultra Pro Showtime Chin Strap,Shock Doctor,5,4
+523,Snap Post Short,Adams,5,13
+524,"SpeedFlex Face Frame Pads - 1"" ( White)",Riddell,5,12
+525,SportStar SpeedFlex Adapter/Set,SportStar,5,12
+526,SportStar X-1 GX4 Gel Chinstrap,SportStar,5,4
+527,"Swivel T-Hook Steel, 1 Inch",Adams,1,23
+528,"Swivel T-Hook Steel, 1,5 Inch",Adams,1,23
+529,"T-Hook, Steel 1,5 Inch",Adams,1,23
+530,"T-Nut, Long",Adams,5,13
+531,"T-Nut, Regular",Adams,5,13
+532,"T-Nut, Short",Adams,5,13
+533,Under Armour 1-Inch Performance Wristband (4 pack),Under Armour,1,27
+534,Under Armour Adult FB Visor (204206),Under Armour,5,12
+535,Under Armour Air Lip Guard,Under Armour,6,16
+536,Under Armour Air Lip Guard Novelty,Under Armour,6,16
+537,Under Armour Antimicrobial Mouthwear Case,Under Armour,6,16
+538,Under Armour Armour Air Lip Guard,Under Armour,6,16
+539,"Under Armour Blur Select MC, Black  (3023722)",Under Armour,3,15
+540,Under Armour Blur Smoke (3024015),Under Armour,3,15
+541,Under Armour F8 Gloves,Under Armour,4,2
+542,Under Armour Football 6 Pocket Girdle,Under Armour,6,11
+543,"Under Armour Football Visor Clips, Pairs",Under Armour,5,12
+544,Under Armour Football Visor Grey (UA9902),Under Armour,5,12
+545,Under Armour Gameday Armour Pro Mouthguard,Under Armour,6,16
+546,Under Armour HeatGear Crew Socks 3-Pack,Under Armour,3,24
+547,Under Armour Highlight Fran RM (3023718),Under Armour,3,15
+548,Under Armour Highlight MC (3021478),Under Armour,3,15
+549,Under Armour Over The Calf Team Socks,Under Armour,3,24
+550,Under Armour Spotlight Fran RM 2.0 (3025083),Under Armour,3,15
+551,Under Armour Spotlight Fran RM2 WD (3025084),Under Armour,3,15
+552,Under Armour Spotlight Lux MC (3022654),Under Armour,3,15
+553,Under Armour Team Crew Socks,Under Armour,3,24
+554,Under Armour UA20420 Youth Pro 5-Pad Top Nov,Under Armour,6,17
+555,Under Armour UA20460 Youth Gameday Armour Pro 5-Pad Girdle,Under Armour,6,11
+556,Under Armour UA20520 Gameday Armour 5-Pad Girdle,Under Armour,6,11
+557,Under Armour Unisex Team Crew Socks,Under Armour,3,24
+558,Under Armour Youth FB Visor Clear (204207),Under Armour,5,12
+559,Vettex #25 Mouthguard Doubleguard Adult,Vettex,6,16
+560,Vettex #90 Mouthguard Doublebite Adult,Vettex,6,16
+561,Warrior Shield All Purpose Shoulder Pads,Warrior Shield,8,2
+562,Warrior Shield Skill Position Shoulder Pads,Warrior Shield,8,2
+563,Wide-Body Eye Black,Rawlings,1,8
+564,Wilson 5 Inch 3 Play Wrist Coach,Wilson,1,27
+565,Xenith Flyte 2 Youth TD,Xenith,8,28
+566,Xenith Pro Varsity All Purpose,Xenith,8,2
+567,Xenith Pro Varsity Lineman,Xenith,8,2
+568,Xenith Pro Varsity Skill,Xenith,8,2
+569,Xenith Shadow XR Varsity Helmet,Xenith,5,2
+570,Xenith Velocity 2 Youth TD,Xenith,8,28
+571,Xenith Velocity Pro Light Varsity All Purpose,Xenith,8,2
+572,Xenith X2E+ Varsity Helmet,Xenith,5,2
+573,Xenith X2E+ Varsity Youth Helmet,Xenith,5,28
+574,Xenith XRS-22X Standard Facemask,Xenith,5,9

@@ -1,0 +1,30 @@
+# Raw data files
+AF_offline_sales_dataset.csv
+AF_online_sales_dataset.csv
+
+# Python virtual environment
+.venv/
+
+# Environment variables
+.env
+.env*
+
+# OS / Editor junk (optional but recommended)
+__pycache__/
+*.pyc
+.DS_Store
+*.swp
+
+# VS Code config (if you're using it)
+.vscode/
+
+# kaggle
+kaggle.json
+
+# dashboard
+*.pbix
+
+# word files
+*.docx
+*.doc 
+

@@ -1,0 +1,19 @@
+[2025-07-15T07:26:00.755+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: prepare_raw_data_daily.extract_one_day_to_unprocessed scheduled__2025-07-15T07:25:00+00:00 [queued]>
+[2025-07-15T07:26:00.761+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: prepare_raw_data_daily.extract_one_day_to_unprocessed scheduled__2025-07-15T07:25:00+00:00 [queued]>
+[2025-07-15T07:26:00.762+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2025-07-15T07:26:00.772+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): extract_one_day_to_unprocessed> on 2025-07-15 07:25:00+00:00
+[2025-07-15T07:26:00.775+0000] {standard_task_runner.py:60} INFO - Started process 1693 to run task
+[2025-07-15T07:26:00.777+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'prepare_raw_data_daily', 'extract_one_day_to_unprocessed', 'scheduled__2025-07-15T07:25:00+00:00', '--job-id', '316', '--raw', '--subdir', 'DAGS_FOLDER/extract_daily_to_s3.py', '--cfg-path', '/tmp/tmpoiz61vaq']
+[2025-07-15T07:26:00.779+0000] {standard_task_runner.py:88} INFO - Job 316: Subtask extract_one_day_to_unprocessed
+[2025-07-15T07:26:00.814+0000] {task_command.py:423} INFO - Running <TaskInstance: prepare_raw_data_daily.extract_one_day_to_unprocessed scheduled__2025-07-15T07:25:00+00:00 [running]> on host 5dadd59cc86d
+[2025-07-15T07:26:00.869+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='prepare_raw_data_daily' AIRFLOW_CTX_TASK_ID='extract_one_day_to_unprocessed' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T07:25:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-15T07:25:00+00:00'
+[2025-07-15T07:26:00.877+0000] {logging_mixin.py:188} INFO - 🔄 Loading raw CSV files...
+[2025-07-15T07:26:04.685+0000] {logging_mixin.py:188} INFO - Checking what has already been processed...
+[2025-07-15T07:26:04.762+0000] {logging_mixin.py:188} INFO - Processing day: 2022/04/12
+[2025-07-15T07:26:04.946+0000] {logging_mixin.py:188} INFO - Saved 2022/04/12/online.csv
+[2025-07-15T07:26:04.957+0000] {logging_mixin.py:188} INFO - Saved 2022/04/12/offline.csv
+[2025-07-15T07:26:04.958+0000] {logging_mixin.py:188} INFO - ✅ Finished generating daily files for 2022/04/12
+[2025-07-15T07:26:05.018+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-07-15T07:26:05.027+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=prepare_raw_data_daily, task_id=extract_one_day_to_unprocessed, execution_date=20250715T072500, start_date=20250715T072600, end_date=20250715T072605
+[2025-07-15T07:26:05.049+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-07-15T07:26:05.060+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

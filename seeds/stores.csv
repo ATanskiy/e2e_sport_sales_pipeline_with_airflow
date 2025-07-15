@@ -1,0 +1,102 @@
+store_id,store_type,store_street,store_city,store_state
+1,franchise,55740 Arapahoe Street,Charleston,WV
+2,franchise,674 Westerfield Street,Mobile,AL
+3,megastore,51796 Laurel Crossing,Rochester,NY
+4,megastore,4 Hanson Alley,Frankfort,KY
+5,superstore,247 Mariners Cove Alley,Irving,TX
+6,specialized,9559 Evergreen Alley,Peoria,IL
+7,franchise,93 Esch Center,West Palm Beach,FL
+8,online,,,
+9,franchise,8 Park Meadow Terrace,Los Angeles,CA
+10,megastore,97948 1st Park,Mobile,AL
+11,franchise,57029 Portage Plaza,Houston,TX
+12,franchise,2870 Division Junction,Corpus Christi,TX
+13,franchise,16 Graedel Plaza,Phoenix,AZ
+14,megastore,442 Charing Cross Terrace,Mountain View,CA
+15,superstore,7 Transport Court,Clearwater,FL
+16,franchise,7 Miller Crossing,Palatine,IL
+17,megastore,3349 Main Street,New Haven,CT
+18,franchise,235 Cody Pass,Anderson,IN
+19,superstore,510 Kings Road,Lancaster,CA
+20,superstore,9 Twin Pines Junction,Orlando,FL
+21,megastore,4 Everett Lane,Pensacola,FL
+22,superstore,8 Holmberg Plaza,Charlotte,NC
+23,superstore,6 Carberry Street,Olympia,WA
+24,superstore,6516 Scoville Pass,Chattanooga,TN
+25,superstore,29430 Garrison Drive,Sparks,NV
+26,franchise,732 Florence Center,Clearwater,FL
+27,megastore,4 Susan Road,Pasadena,CA
+28,superstore,146 Bobwhite Street,Dallas,TX
+29,specialized,87 Surrey Junction,Boulder,CO
+30,superstore,88 Harbort Alley,Rochester,NY
+31,specialized,31 Portage Junction,Fairfield,CT
+32,specialized,53 New Castle Plaza,Minneapolis,MN
+33,megastore,14315 Melby Park,Helena,MT
+34,megastore,9 La Follette Parkway,Pasadena,CA
+35,franchise,1 Haas Way,Florence,SC
+36,megastore,8 Continental Park,Rochester,NY
+37,superstore,86 Heath Avenue,Tulsa,OK
+38,megastore,289 Schurz Plaza,Charleston,WV
+39,superstore,23408 Melvin Circle,Alexandria,VA
+40,megastore,1069 7th Trail,Kansas City,MO
+41,superstore,61892 Bunker Hill Point,Sacramento,CA
+42,superstore,2 Brickson Park Park,Huntsville,AL
+43,specialized,20 Fairfield Plaza,Portland,OR
+44,superstore,87474 New Castle Parkway,Seattle,WA
+45,megastore,46043 Golf Terrace,Honolulu,HI
+46,superstore,0758 Dunning Lane,Charlotte,NC
+47,superstore,83 Lakewood Gardens Circle,Norfolk,VA
+48,superstore,28 Basil Drive,Cincinnati,OH
+49,superstore,5 Armistice Hill,El Paso,TX
+50,superstore,69 Stuart Circle,Daytona Beach,FL
+51,franchise,9578 Pond Parkway,Wichita,KS
+52,franchise,6026 Canary Street,Boulder,CO
+53,megastore,98009 Onsgard Way,Melbourne,FL
+54,superstore,94965 Gale Court,Jackson,TN
+55,megastore,18 Karstens Avenue,Birmingham,AL
+56,specialized,474 Del Mar Place,New York City,NY
+57,megastore,7 Gina Parkway,Miami,FL
+58,franchise,059 Arizona Place,Cleveland,OH
+59,specialized,2161 Portage Crossing,Austin,TX
+60,superstore,8140 Summer Ridge Alley,Saint Joseph,MO
+61,specialized,80 Bay Court,Washington,DC
+62,superstore,14615 Twin Pines Pass,Vero Beach,FL
+63,superstore,52 Grover Pass,Reno,NV
+64,superstore,2 Barnett Lane,San Mateo,CA
+65,superstore,803 Springview Avenue,Saint Louis,MO
+66,megastore,7 Evergreen Park,Dallas,TX
+67,superstore,96 Atwood Point,San Antonio,TX
+68,specialized,47631 Lukken Circle,Shreveport,LA
+69,specialized,10 Hansons Hill,San Bernardino,CA
+70,megastore,226 Maple Wood Circle,New York City,NY
+71,megastore,757 Granby Circle,Cincinnati,OH
+72,superstore,654 Pine View Place,New Orleans,LA
+73,megastore,79008 Merchant Circle,Pittsburgh,PA
+74,franchise,00105 Corben Terrace,Norfolk,VA
+75,superstore,9530 Raven Crossing,Clearwater,FL
+76,megastore,5 Sunnyside Center,Oklahoma City,OK
+77,superstore,464 Welch Terrace,Fayetteville,NC
+78,superstore,1 La Follette Trail,Portland,OR
+79,superstore,07 Hanover Terrace,Montgomery,AL
+80,megastore,9 Mendota Circle,Huntington,WV
+81,specialized,7 Stoughton Pass,Denton,TX
+82,superstore,8739 Linden Alley,Arlington,TX
+83,franchise,4 Quincy Crossing,Kingsport,TN
+84,superstore,39279 Marquette Center,Utica,NY
+85,superstore,6 Laurel Park,Corpus Christi,TX
+86,superstore,4 Dawn Parkway,Manassas,VA
+87,superstore,9 Melrose Center,Farmington,MI
+88,superstore,0085 Sutherland Pass,Saint Louis,MO
+89,franchise,0 Gale Parkway,Albuquerque,NM
+90,megastore,72197 Roxbury Plaza,Nashville,TN
+91,superstore,5 Tennyson Way,Redwood City,CA
+92,specialized,568 Cambridge Terrace,Tacoma,WA
+93,superstore,6451 Gina Center,Amarillo,TX
+94,megastore,42 Redwing Circle,Orlando,FL
+95,superstore,761 Fuller Lane,Tulsa,OK
+96,megastore,308 Jenifer Point,Spring,TX
+97,megastore,35 Melrose Alley,Phoenix,AZ
+98,superstore,05227 Grasskamp Park,Lansing,MI
+99,superstore,7522 Algoma Park,Erie,PA
+100,superstore,31338 Center Alley,Salt Lake City,UT
+101,specialized,4 Jana Park,Detroit,MI
