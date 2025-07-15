@@ -91,6 +91,3 @@ def main():
         print(f"Moved {key} to '{MINIO_PROCESSED}'")
 
     print("All done. Kol Hakavod")
-
-if __name__ == "__main__":
-    main()

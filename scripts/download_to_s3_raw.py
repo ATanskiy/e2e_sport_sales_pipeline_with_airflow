@@ -8,8 +8,6 @@ os.environ['KAGGLE_CONFIG_DIR'] = os.path.join(os.path.dirname(__file__), '../.k
 
 from kaggle.api.kaggle_api_extended import KaggleApi
 from botocore.exceptions import ClientError
-
-#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 from configs.config import ONLINE_FILE_NAME, OFFLINE_FILE_NAME, RAW_DATA_FOLDER,\
                     DOWNLOAD_TEMP, S3, DATASET, TMSTMP, DATE, MINIO_RAW
 
@@ -20,6 +18,7 @@ def bucket_exists(bucket):
     except ClientError:
         return False
 
+
 def file_exists_in_bucket(bucket, key):
     try:
         S3.head_object(Bucket=bucket, Key=key)
@@ -27,44 +26,45 @@ def file_exists_in_bucket(bucket, key):
     except ClientError:
         return False
 
-def upload_file_to_S3(local_path, bucket, key):
+
+def upload_file_to_s3(local_path, bucket, key):
     print(f"Uploading {local_path} to {bucket}/{key}...")
     S3.upload_file(local_path, bucket, key)
     print(f"Uploaded {key}")
 
-# Step 1: Ensure bucket exists
-if not bucket_exists(MINIO_RAW):
-    print(f"Creating bucket '{MINIO_RAW}'...")
-    S3.create_bucket(Bucket=MINIO_RAW)
-else:
-    print(f"Bucket '{MINIO_RAW}' already exists.")
 
-# Step 2: If both files already exist in bucket, exit early
-if file_exists_in_bucket(MINIO_RAW, ONLINE_FILE_NAME) and file_exists_in_bucket(MINIO_RAW, OFFLINE_FILE_NAME):
-    print("Both files already exist in S3. Nothing to do.")
-    exit(0)
+def ensure_bucket_exists(bucket):
+    if not bucket_exists(bucket):
+        print(f"Creating bucket '{bucket}'...")
+        S3.create_bucket(Bucket=bucket)
+    else:
+        print(f"Bucket '{bucket}' already exists.")
 
-# Step 3: If raw_data folder exists locally and has both files, upload them
-online_path = os.path.join(RAW_DATA_FOLDER, ONLINE_FILE_NAME)
-offline_path = os.path.join(RAW_DATA_FOLDER, OFFLINE_FILE_NAME)
 
-if os.path.exists(online_path) and os.path.exists(offline_path):
+def local_files_exist():
+    online_path = os.path.join(RAW_DATA_FOLDER, ONLINE_FILE_NAME)
+    offline_path = os.path.join(RAW_DATA_FOLDER, OFFLINE_FILE_NAME)
+    return os.path.exists(online_path) and os.path.exists(offline_path)
+
+
+def upload_local_files():
     print("Found both files in 'raw_data'. Uploading to S3...")
-    upload_file_to_S3(online_path, MINIO_RAW, ONLINE_FILE_NAME)
-    upload_file_to_S3(offline_path, MINIO_RAW, OFFLINE_FILE_NAME)
+    online_path = os.path.join(RAW_DATA_FOLDER, ONLINE_FILE_NAME)
+    offline_path = os.path.join(RAW_DATA_FOLDER, OFFLINE_FILE_NAME)
+    upload_file_to_s3(online_path, MINIO_RAW, ONLINE_FILE_NAME)
+    upload_file_to_s3(offline_path, MINIO_RAW, OFFLINE_FILE_NAME)
 
-else:
+
+def download_and_prepare_kaggle_files():
     print("Missing local files. Downloading from Kaggle...")
 
     os.makedirs(DOWNLOAD_TEMP, exist_ok=True)
-
     api = KaggleApi()
     api.authenticate()
     api.dataset_download_files(DATASET, path=DOWNLOAD_TEMP, unzip=True)
 
     os.makedirs(RAW_DATA_FOLDER, exist_ok=True)
 
-    # Define which column to sort each file by
     sort_info = {
         ONLINE_FILE_NAME: TMSTMP,
         OFFLINE_FILE_NAME: DATE
@@ -79,10 +79,23 @@ else:
         df = pd.read_csv(temp_path)
         df[sort_column] = pd.to_datetime(df[sort_column], errors="coerce")
         df = df.sort_values(by=sort_column)
-
         df.to_csv(raw_path, index=False)
-        print(f"Sorted and saved '{file}' to '{raw_path}'.")
 
-        upload_file_to_S3(raw_path, MINIO_RAW, file)
+        print(f"Sorted and saved '{file}' to '{raw_path}'.")
+        upload_file_to_s3(raw_path, MINIO_RAW, file)
+
     shutil.rmtree(DOWNLOAD_TEMP)
     print("Cleaned up temporary files.")
+
+
+def download_to_s3_raw():
+    ensure_bucket_exists(MINIO_RAW)
+
+    if file_exists_in_bucket(MINIO_RAW, ONLINE_FILE_NAME) and file_exists_in_bucket(MINIO_RAW, OFFLINE_FILE_NAME):
+        print("Both files already exist in S3. Nothing to do.")
+        return
+
+    if local_files_exist():
+        upload_local_files()
+    else:
+        download_and_prepare_kaggle_files()

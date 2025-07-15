@@ -1,4 +1,3 @@
-import sys
 import os
 import pandas as pd
 from datetime import datetime
@@ -21,7 +20,7 @@ def insert_dataframe_to_table(df, table_name, schema, conn):
     cur.close()
     print(f"Inserted {len(df)} rows into {schema}.{table_name}")
 
-def load_all_files():
+def load_dim_tables():
     conn = get_connection()
     inserted_any = False  # Track whether anything got inserted
     inserted_count = 0  # New counter
@@ -68,6 +67,3 @@ def load_all_files():
         print(f"Data was inserted into {inserted_count} dimention tables.")
     else:
         print("No data was inserted — all tables either missing or not empty.")
-
-if __name__ == "__main__":
-    load_all_files()

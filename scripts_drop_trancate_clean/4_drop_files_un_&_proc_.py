@@ -1,5 +1,3 @@
-import os
-import sys
 import botocore
 from configs.config import S3, BUCKET_LIST
 

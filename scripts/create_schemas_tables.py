@@ -1,10 +1,39 @@
-import sys
-import os
 import re
 from db.connection import get_connection
 from configs.config import SCHEMAS, CREATE_TABLES_SCHEMAS_PATH
 
-def run_schema_sql():
+def extract_all_table_sql(sql_text):
+    """
+    Extracts all CREATE TABLE blocks into a dictionary: { table_name: create_sql }
+    Assumes table blocks start with CREATE TABLE IF NOT EXISTS {{schema}}.table_name
+    and end with ');'
+    """
+    table_sql_map = {}
+    current_block = []
+    current_table = None
+    inside_block = False
+
+    for line in sql_text.splitlines():
+        if line.strip().upper().startswith("CREATE TABLE {{SCHEMA}}."):
+            inside_block = True
+            current_block = [line]
+            # extract table name
+            match = re.search(r'CREATE TABLE \{\{schema\}\}\.(\w+)', line)
+            if match:
+                current_table = match.group(1)
+        elif inside_block:
+            current_block.append(line)
+            if line.strip().endswith(");"):
+                if current_table:
+                    table_sql_map[current_table] = "\n".join(current_block)
+                current_table = None
+                current_block = []
+                inside_block = False
+
+    return table_sql_map
+
+
+def create_schemas_tables():
     with open(CREATE_TABLES_SCHEMAS_PATH, "r") as f:
         full_sql = f.read()
 
@@ -46,37 +75,3 @@ def run_schema_sql():
     cur.close()
     conn.close()
     print("Done.")
-
-
-def extract_all_table_sql(sql_text):
-    """
-    Extracts all CREATE TABLE blocks into a dictionary: { table_name: create_sql }
-    Assumes table blocks start with CREATE TABLE IF NOT EXISTS {{schema}}.table_name
-    and end with ');'
-    """
-    table_sql_map = {}
-    current_block = []
-    current_table = None
-    inside_block = False
-
-    for line in sql_text.splitlines():
-        if line.strip().upper().startswith("CREATE TABLE {{SCHEMA}}."):
-            inside_block = True
-            current_block = [line]
-            # extract table name
-            match = re.search(r'CREATE TABLE \{\{schema\}\}\.(\w+)', line)
-            if match:
-                current_table = match.group(1)
-        elif inside_block:
-            current_block.append(line)
-            if line.strip().endswith(");"):
-                if current_table:
-                    table_sql_map[current_table] = "\n".join(current_block)
-                current_table = None
-                current_block = []
-                inside_block = False
-
-    return table_sql_map
-
-if __name__ == "__main__":
-    run_schema_sql()

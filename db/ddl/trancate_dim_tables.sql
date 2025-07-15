@@ -7,6 +7,6 @@ TRUNCATE TABLE
     {{schema}}.stores,
     {{schema}}.employees,
     {{schema}}.payment_methods,
-    {{schema}}.shipping_methods
+    {{schema}}.shipping_methods,
     {{schema}}.currecy_rates
 RESTART IDENTITY CASCADE;

@@ -1,5 +1,3 @@
-import os
-import sys
 from dotenv import load_dotenv
 from botocore.exceptions import ClientError
 from configs.config import BUCKET_LIST, S3
