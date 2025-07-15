@@ -1749,3 +1749,27 @@ ModuleNotFoundError: No module named 'db'
 [2025-07-15T14:11:39.032+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:11:39.032+0000] {dag.py:3036} INFO - Sync 1 DAGs
 [2025-07-15T14:11:39.047+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:11:39.047+0000] {dag.py:3823} INFO - Setting next_dagrun for currency_rates_daily_update to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
 [2025-07-15T14:11:39.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_rates_daily_update.py took 0.455 seconds
+[2025-07-15T14:12:09.347+0000] {processor.py:161} INFO - Started process (PID=353) to work on /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:12:09.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_rates_daily_update.py for tasks to queue
+[2025-07-15T14:12:09.349+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:12:09.348+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:12:09.667+0000] {logging_mixin.py:188} INFO - Loaded Airflow environment
+[2025-07-15T14:12:09.738+0000] {processor.py:840} INFO - DAG(s) 'currency_rates_daily_update' retrieved from /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:12:09.755+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:12:09.754+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-15T14:12:09.768+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:12:09.768+0000] {dag.py:3823} INFO - Setting next_dagrun for currency_rates_daily_update to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-15T14:12:09.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_rates_daily_update.py took 0.435 seconds
+[2025-07-15T14:12:40.042+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:12:40.043+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_rates_daily_update.py for tasks to queue
+[2025-07-15T14:12:40.043+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:12:40.043+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:12:40.280+0000] {logging_mixin.py:188} INFO - Loaded Airflow environment
+[2025-07-15T14:12:40.455+0000] {processor.py:840} INFO - DAG(s) 'currency_rates_daily_update' retrieved from /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:12:40.472+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:12:40.472+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-15T14:12:40.486+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:12:40.486+0000] {dag.py:3823} INFO - Setting next_dagrun for currency_rates_daily_update to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-15T14:12:40.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_rates_daily_update.py took 0.464 seconds
+[2025-07-15T14:13:10.766+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:13:10.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/currency_rates_daily_update.py for tasks to queue
+[2025-07-15T14:13:10.767+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:13:10.767+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:13:11.001+0000] {logging_mixin.py:188} INFO - Loaded Airflow environment
+[2025-07-15T14:13:11.172+0000] {processor.py:840} INFO - DAG(s) 'currency_rates_daily_update' retrieved from /opt/airflow/dags/currency_rates_daily_update.py
+[2025-07-15T14:13:11.187+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:13:11.187+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-07-15T14:13:11.201+0000] {logging_mixin.py:188} INFO - [2025-07-15T14:13:11.200+0000] {dag.py:3823} INFO - Setting next_dagrun for currency_rates_daily_update to 2025-07-15 00:00:00+00:00, run_after=2025-07-16 00:00:00+00:00
+[2025-07-15T14:13:11.212+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/currency_rates_daily_update.py took 0.448 seconds

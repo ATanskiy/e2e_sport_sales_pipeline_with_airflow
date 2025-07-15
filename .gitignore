@@ -28,3 +28,5 @@ kaggle.json
 *.docx
 *.doc 
 
+# logs
+logs/
