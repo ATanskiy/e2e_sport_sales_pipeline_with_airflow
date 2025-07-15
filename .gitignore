@@ -30,3 +30,6 @@ kaggle.json
 
 # logs
 logs/
+
+# configs
+configs/

@@ -4,9 +4,6 @@ import pandas as pd
 import requests
 from datetime import date, datetime, timedelta
 
-# Add parent directory to path for importing modules
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-
 # Load config
 from configs.config import (
     FRANKFURTER_API_URL, BASE_CURRENCY, TARGET_CURRENCIES,
