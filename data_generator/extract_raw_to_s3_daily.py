@@ -71,7 +71,7 @@ def extract_one_day_to_unprocessed():
         print(f"Creating bucket '{MINIO_UNPROCESSED}'...")
         S3.create_bucket(Bucket=MINIO_UNPROCESSED)
 
-    print("🔄 Loading raw CSV files...")
+    print("Loading raw CSV files...")
     raw_online = read_csv_from_s3(MINIO_RAW, ONLINE_FILE_NAME, TMSTMP)
     raw_offline = read_csv_from_s3(MINIO_RAW, OFFLINE_FILE_NAME, DATE)
 
@@ -89,4 +89,4 @@ def extract_one_day_to_unprocessed():
     # Write one-day CSVs to unprocessed_data
     process_one_day(raw_online, raw_offline, next_date)
 
-    print(f"✅ Finished generating daily files for {next_date.strftime(DATE_FORMAT)}")
+    print(f"Finished generating daily files for {next_date.strftime(DATE_FORMAT)}")
