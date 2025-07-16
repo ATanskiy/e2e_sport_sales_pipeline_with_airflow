@@ -94,6 +94,7 @@ CREATE TABLE {{schema}}.sales (
     payment_method_id INT REFERENCES {{schema}}.payment_methods(payment_method_id),
     shipping_method_id INT REFERENCES {{schema}}.shipping_methods(shipping_method_id),
     product_price NUMERIC,
+    currency TEXT,
     coupon_discount NUMERIC,
     quantity_sold INT,
     total_amount NUMERIC,

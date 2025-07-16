@@ -9,7 +9,7 @@ from dags.tasks.etl.sales.upsert_task import upsert_sales_task
 from dags.tasks.etl.move_to_processed_task import move_to_processed_task
 
 default_args = {
-    'owner': 'alex',
+    'owner': 'airflow',
     'start_date': datetime(2023, 1, 1),
     'retries': 1,
 }

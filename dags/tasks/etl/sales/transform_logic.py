@@ -48,6 +48,9 @@ def transform_sales(online_df: pd.DataFrame, offline_df: pd.DataFrame, conn, sch
     # replace store_id with 8 for Online stores
     combined_df.loc[combined_df['sales_channel'] == 'Online', 'store_id'] = 8
 
+    # add currency columns
+    combined_df['currency'] = 'USD'
+
     # final touches
     combined_df['coupon_discount'] = combined_df.apply(
     lambda row: 0 if row['sales_channel'] == OFFLINE_SALES_CHANNEL else float(row['coupon_discount']),
