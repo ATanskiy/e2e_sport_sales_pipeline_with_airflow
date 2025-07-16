@@ -1,10 +1,8 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
-from etl.etl_currencies import fetch_currency_rates_task, load_currency_rates_task
-
-# Import the main function
-from etl.etl_currencies import run_currency_pipeline
+from dags.tasks.currencies.airflow_tasks import fetch_currency_rates_task,\
+                                                 load_currency_rates_task
 
 default_args = {
     "owner": "airflow",

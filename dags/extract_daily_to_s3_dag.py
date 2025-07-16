@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-from data_generator.extract_raw_to_s3_daily import generate_next_daily_raw_batch
+from dags.tasks.raw_data_generator.pipeline import generate_next_daily_raw_batch
 
 default_args = {
     "owner": "airflow",

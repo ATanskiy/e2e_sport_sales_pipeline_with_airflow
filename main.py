@@ -15,6 +15,11 @@ Features:
 - Uses a configurable sleep delay (`TIME_TO_SLEEP`) to wait for containers
 - Handles and logs script failures gracefully
 - Stops execution on the first failure
+
+Typical Use:
+- Local development or testing setup
+- One-click environment preparation for notebooks, Airflow, or API apps
+
 """
 
 import subprocess
@@ -24,7 +29,7 @@ import sys
 from scripts.download_to_s3_raw import download_to_s3_raw
 from scripts.create_schemas_tables import create_schemas_tables
 from scripts.load_dim_tables import load_dim_tables
-from etl.etl_currencies import run_currency_pipeline
+from dags.tasks.currencies.pipeline import run_currency_pipeline
 from configs.config import TIME_TO_SLEEP
 
 # Explicitly set ENV for local execution
