@@ -1,7 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime
-from data_generator.extract_raw_to_s3_daily import extract_one_day_to_unprocessed
+from data_generator.extract_raw_to_s3_daily import generate_next_daily_raw_batch
 
 default_args = {
     "owner": "airflow",
@@ -18,6 +18,6 @@ dag = DAG(
 
 task = PythonOperator(
     task_id="extract_one_day_to_unprocessed",
-    python_callable=extract_one_day_to_unprocessed,
+    python_callable=generate_next_daily_raw_batch,
     dag=dag,
 )

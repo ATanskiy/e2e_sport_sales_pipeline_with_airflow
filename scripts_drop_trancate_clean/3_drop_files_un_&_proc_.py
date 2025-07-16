@@ -1,3 +1,15 @@
+"""
+S3 Object Cleanup Script (MinIO-Compatible)
+
+Deletes all objects from each bucket listed in `BUCKET_LIST`, but does not delete the buckets themselves.
+
+Features:
+- Checks if each bucket exists
+- Deletes all objects if present
+- Skips empty buckets with a friendly message
+- Logs meaningful output for each action
+"""
+
 import botocore
 from configs.config import S3, BUCKET_LIST
 

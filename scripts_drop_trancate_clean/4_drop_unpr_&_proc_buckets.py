@@ -1,4 +1,15 @@
-from dotenv import load_dotenv
+"""
+S3 Bucket Deletion Utility (MinIO-Compatible)
+
+This script deletes all objects from each bucket listed in `BUCKET_LIST`,
+then deletes the buckets themselves.
+
+Features:
+- Checks if the bucket exists before attempting deletion
+- Deletes all objects in the bucket (if any)
+- Deletes the bucket itself
+- Handles and logs common S3/MinIO errors
+"""
 from botocore.exceptions import ClientError
 from configs.config import BUCKET_LIST, S3
 

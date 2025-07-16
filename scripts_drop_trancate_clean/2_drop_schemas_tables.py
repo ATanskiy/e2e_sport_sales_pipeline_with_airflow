@@ -1,3 +1,15 @@
+"""
+S3 Object Cleanup Script (MinIO-Compatible)
+
+Removes all objects from each bucket listed in `BUCKET_LIST` without deleting the buckets themselves.
+
+Features:
+- Checks if the bucket exists before attempting deletion
+- Deletes all objects if present
+- Skips empty buckets with informative logging
+- Gracefully handles missing buckets and common S3 errors
+"""
+
 from db.connection import get_connection
 from configs.config import DROP_TABLE_SCHEMAS_PATH
 

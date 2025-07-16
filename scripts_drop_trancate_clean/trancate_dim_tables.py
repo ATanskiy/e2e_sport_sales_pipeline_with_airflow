@@ -1,3 +1,27 @@
+"""
+Truncate Utility for Dimension Tables in PostgreSQL
+
+This script reads a SQL file containing a TRUNCATE statement template and applies it
+to all configured schemas. It is typically used for resetting dimension tables
+during testing, re-seeding, or environment resets.
+
+Key Features:
+- Reads a SQL template file from `TRUNCATE_DIM_TABLES_PATH`
+- Replaces `{{schema}}` placeholder with each schema name defined in `SCHEMAS`
+- Executes the `TRUNCATE TABLE` command for each schema
+- Commits on success, rolls back on failure
+- Handles file I/O and database errors gracefully
+- Prints a confirmation message for each schema
+
+Expected SQL Template:
+The SQL file should contain a TRUNCATE statement using the `{{schema}}` placeholder,
+e.g.:
+    TRUNCATE TABLE {{schema}}.table1, {{schema}}.table2 RESTART IDENTITY CASCADE;
+
+Functions:
+- `run_truncate_sql()` — Main function that performs the truncation logic
+"""
+
 from db.connection import get_connection
 from configs.config import TRUNCATE_DIM_TABLES_PATH, SCHEMAS
 import psycopg2

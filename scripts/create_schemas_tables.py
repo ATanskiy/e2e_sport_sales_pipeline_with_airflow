@@ -1,3 +1,23 @@
+"""
+Schema and Table Creation Utility for PostgreSQL
+
+This script initializes the required database schemas and tables across multiple
+environments (e.g., `raw`, `prod`, `playground`) by parsing SQL definitions from
+a single SQL file.
+
+Key Features:
+- Reads a full SQL file containing multiple `CREATE TABLE` statements using the placeholder `{{schema}}`
+- Extracts each `CREATE TABLE` block and maps it to a table name
+- Iterates over all schemas defined in the config
+    - Creates schemas if they do not exist
+    - Checks if each table exists in each schema
+    - Creates any missing tables using the parsed SQL, replacing `{{schema}}` with the actual name
+
+Functions:
+- `extract_all_table_sql()` — Parses the raw SQL file into `{table_name: sql_block}` mappings
+- `create_schemas_tables()` — Orchestrates schema creation and table setup across all configured schemas
+"""
+
 import re
 from db.connection import get_connection
 from configs.config import SCHEMAS, CREATE_TABLES_SCHEMAS_PATH

@@ -1,3 +1,22 @@
+"""
+Local Bootstrap Script for Project Initialization
+
+This script automates the setup of a local development environment by:
+1. Starting required Docker containers (e.g., Postgres, MinIO)
+2. Waiting for services to be ready
+3. Executing a sequence of ETL and setup scripts:
+   - Downloads raw data from Kaggle to MinIO
+   - Creates schemas and tables in Postgres
+   - Seeds dimension tables
+   - Loads currency exchange rates
+
+Features:
+- Sets `ENV=local` for local config loading
+- Uses a configurable sleep delay (`TIME_TO_SLEEP`) to wait for containers
+- Handles and logs script failures gracefully
+- Stops execution on the first failure
+"""
+
 import subprocess
 import time
 import os
@@ -5,7 +24,7 @@ import sys
 from scripts.download_to_s3_raw import download_to_s3_raw
 from scripts.create_schemas_tables import create_schemas_tables
 from scripts.load_dim_tables import load_dim_tables
-from scripts.load_currency_rates import run_currency_pipeline
+from etl.etl_currencies import run_currency_pipeline
 from configs.config import TIME_TO_SLEEP
 
 # Explicitly set ENV for local execution

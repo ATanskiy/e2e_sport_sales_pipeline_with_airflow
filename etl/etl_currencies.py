@@ -1,5 +1,31 @@
-import os
-import sys
+"""
+Currency ETL Pipeline for Frankfurter API
+
+This module handles the end-to-end process of fetching daily exchange rates
+from the Frankfurter API and inserting them into a PostgreSQL database using
+the `psycopg2` driver.
+
+It supports both:
+- Local CLI-style execution (`run_currency_pipeline`)
+- Modular Airflow execution using two atomic tasks:
+    1. `fetch_currency_rates_task`: Fetches rates and pushes them to XCom
+    2. `load_currency_rates_task`: Pulls from XCom and upserts to DB
+
+Main Components:
+- `get_start_date_from_db()`: Detects the most recent date in the database
+- `fetch_currency_rates()`: Calls the API for each day in the date range
+- `upsert_currency_rates()`: Inserts or updates data in one or more schemas
+- `run_currency_pipeline()`: Local one-click execution for testing
+- Airflow task functions (`*_task`) for scheduled daily ingestion
+
+Configuration is loaded via `config.py` and `.env`, supporting multiple schemas
+and target currencies.
+
+Usage:
+- In production, schedule as an Airflow DAG
+- For local testing, run `run_currency_pipeline()`
+"""
+
 import pandas as pd
 import requests
 from datetime import date, datetime, timedelta
@@ -111,6 +137,7 @@ def upsert_currency_rates(df, conn, schema):
     print(f"Updated: {upserted_count - newly_inserted_count}")
 
 def run_currency_pipeline():
+    """For local dev/testing. Equivalent of fetch + upsert"""
     print("Checking last date in prod table...")
     start_date = get_start_date_from_db()
     print(f"Fetching currency rates from {start_date} to {END_DATE}...")
@@ -124,3 +151,24 @@ def run_currency_pipeline():
                 upsert_currency_rates(df, conn, schema)
     else:
         print("No new data to insert.")
+
+def fetch_currency_rates_task(**context):
+    start_date = get_start_date_from_db()
+    df = fetch_currency_rates(start_date, END_DATE)
+    df["date"] = df["date"].dt.strftime("%Y-%m-%d")
+    context['ti'].xcom_push(key="currency_data", value=df.to_dict(orient="records"))
+    print(f"Pushed {len(df)} records to XCom")
+
+
+def load_currency_rates_task(**context):
+    records = context['ti'].xcom_pull(key="currency_data", task_ids="fetch_currency_rates_task")
+    df = pd.DataFrame(records)
+    df["date"] = pd.to_datetime(df["date"])
+
+    if df.empty:
+        print("No data to upsert")
+        return
+
+    with get_connection() as conn:
+        for schema in SCHEMAS:
+            upsert_currency_rates(df, conn, schema)

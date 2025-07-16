@@ -1,6 +1,7 @@
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import datetime, timedelta
+from etl.etl_currencies import fetch_currency_rates_task, load_currency_rates_task
 
 # Import the main function
 from etl.etl_currencies import run_currency_pipeline
@@ -13,17 +14,25 @@ default_args = {
     "retry_delay": timedelta(minutes=2),
 }
 
-dag = DAG(
+with DAG(
     dag_id="currency_rates_daily_update",
     default_args=default_args,
     schedule_interval="@daily",         
     catchup=False,
     tags=["etl", "currency", "frankfurter"],
     description="Fetch and upsert daily currency rates into Postgres"
-)
+) as dag:
 
-task = PythonOperator(
-    task_id="run_currency_pipeline",
-    python_callable=run_currency_pipeline,
-    dag=dag
-)
+    fetch_task = PythonOperator(
+        task_id="fetch_currency_rates_task",
+        python_callable=fetch_currency_rates_task,
+        provide_context=True
+    )
+
+    load_task = PythonOperator(
+        task_id="load_currency_rates_task",
+        python_callable=load_currency_rates_task,
+        provide_context=True
+    )
+
+    fetch_task >> load_task

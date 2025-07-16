@@ -1,3 +1,18 @@
+"""
+Truncate All Tables Script
+
+Reads a SQL template containing a TRUNCATE statement with `{{schema}}` as a placeholder,
+replaces it for each schema defined in `SCHEMAS`, and executes the command.
+
+Use Case:
+- Full reset of all tables in all schemas (e.g. raw, prod, playground)
+
+Handles:
+- File read errors
+- SQL execution errors
+- Clean connection and cursor closing
+"""
+
 import traceback
 import psycopg2
 from db.connection import get_connection

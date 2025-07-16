@@ -1,3 +1,10 @@
+"""
+Database connection utility.
+
+Loads environment variables from a .env file using `python-dotenv` and establishes
+a connection to a PostgreSQL database using `psycopg2`.
+"""
+
 import os
 from dotenv import load_dotenv
 import psycopg2

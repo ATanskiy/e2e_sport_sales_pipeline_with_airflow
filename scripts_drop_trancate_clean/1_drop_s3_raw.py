@@ -1,4 +1,15 @@
-from dotenv import load_dotenv
+"""
+One-Time MinIO Bucket Cleanup Script
+
+This script deletes all objects from the `MINIO_RAW` bucket and then deletes the bucket itself.
+
+Features:
+- Lists and deletes all objects in the bucket
+- Logs each deletion individually
+- Deletes the bucket after clearing its contents
+- Handles and logs S3-related client errors
+"""
+
 from botocore.exceptions import ClientError
 from configs.config import S3, MINIO_RAW
 

@@ -1,3 +1,23 @@
+"""
+Seed Loader for Dimension Tables in PostgreSQL
+
+This module loads static seed data (dimension tables) into all configured PostgreSQL schemas.
+It is typically used once during environment initialization, assuming that the target tables
+already exist and are empty.
+
+Main Features:
+- Reads seed files (CSV) from the `SEEDS` directory defined in the config
+- Matches each file to its target table via `SEEDS_MAPPING`
+- Checks whether each table exists and is empty in each schema (e.g., `raw`, `prod`, `playground`)
+- If the table exists and is empty, inserts the data into it
+- Adds an `inserted_at` timestamp column with the current time
+- Converts NaN/empty values to `NULL` during insert
+
+Functions:
+- `insert_dataframe_to_table()` — Inserts a DataFrame into a target table, handling NaNs
+- `load_dim_tables()` — Orchestrates the loading process across schemas and files
+"""
+
 import os
 import pandas as pd
 from datetime import datetime

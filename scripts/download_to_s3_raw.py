@@ -1,5 +1,25 @@
+"""
+Kaggle Data Loader and Uploader to MinIO (S3-Compatible)
+
+This module handles the retrieval and preparation of raw datasets 
+from a Kaggle dataset, and uploads them to a MinIO (S3-compatible) storage bucket.
+
+Workflow Overview:
+1. Checks if raw data files already exist in MinIO
+2. If not:
+   - Checks if local raw files exist
+   - If local files are missing, downloads from Kaggle using `kaggle.json` credentials
+   - Sorts the files by relevant date columns (timestamp/date)
+3. Uploads the raw files (online & offline) to the `MINIO_RAW` bucket
+
+Key Functions:
+- `bucket_exists()` / `file_exists_in_bucket()` — Check for bucket and file presence in MinIO
+- `upload_file_to_s3()` — Uploads a single file to MinIO
+- `download_and_prepare_kaggle_files()` — Downloads and cleans files from Kaggle
+- `download_to_s3_raw()` — Main entry point that ensures bucket exists, fetches missing files, and uploads them
+"""
+
 import os
-import sys
 import shutil
 import pandas as pd
 
